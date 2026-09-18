@@ -1,0 +1,2871 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>FRAMORA — Keep What Matters Most | Artisanal Memory Frames</title>
+<meta content="Framora crafts bespoke standard A4 memory frames in Pakistan for PKR 700. Preserve weddings, friendships, family milestones, and cherished moments." name="description"/>
+<!-- BEGIN: Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- END: Google Fonts -->
+<!-- BEGIN: Tailwind CSS v3 with Plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            framora: {
+              charcoal: '#171614',
+              night: '#0e0d0c',
+              gold: '#C6A46A',
+              goldLight: '#E8D5B5',
+              goldDark: '#9E7C43',
+              ivory: '#F7F3EA',
+              cream: '#FDFBF7',
+              sand: '#EFE9DC',
+              sage: '#68705E',
+              sageLight: '#F0F2EE'
+            }
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif']
+          },
+          boxShadow: {
+            'gold-glow': '0 10px 30px -10px rgba(198, 164, 106, 0.35)',
+            'subtle-card': '0 4px 20px -2px rgba(23, 22, 20, 0.05)',
+            'frame': '0 20px 40px -15px rgba(23, 22, 20, 0.18), 0 0 0 1px rgba(198, 164, 106, 0.2)'
+          }
+        }
+      }
+    }
+  </script>
+<!-- END: Tailwind CSS v3 with Plugins -->
+<!-- BEGIN: Custom Global Styles -->
+<style data-purpose="typography">
+    .font-serif-title {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      letter-spacing: -0.01em;
+    }
+    .tracking-widest-plus {
+      letter-spacing: 0.22em;
+    }
+  </style>
+<style data-purpose="animations-and-decor">
+    /* Subtle scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #F7F3EA;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #C6A46A;
+      border-radius: 4px;
+    }
+
+    /* Modal animation classes */
+    .fade-enter {
+      opacity: 0;
+      transform: scale(0.96);
+    }
+    .fade-enter-active {
+      opacity: 1;
+      transform: scale(1);
+      transition: opacity 250ms cubic-bezier(0.16, 1, 0.3, 1), transform 250ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .fade-leave-active {
+      opacity: 0;
+      transform: scale(0.96);
+      transition: opacity 200ms ease-in, transform 200ms ease-in;
+    }
+
+    /* Gold foil shimmer effect */
+    .gold-shimmer {
+      background: linear-gradient(120deg, rgba(198,164,106,0.1) 0%, rgba(232,213,181,0.5) 50%, rgba(198,164,106,0.1) 100%);
+      background-size: 200% 100%;
+      animation: shimmer 6s infinite ease-in-out;
+    }
+    @keyframes shimmer {
+      0% { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+  </style>
+<!-- END: Custom Global Styles -->
+</head>
+<body class="bg-framora-cream text-framora-charcoal font-sans antialiased selection:bg-framora-gold selection:text-white relative">
+<!-- BEGIN: Announcement Top Bar -->
+<div class="bg-framora-charcoal text-framora-goldLight py-2 px-4 text-xs font-medium text-center border-b border-framora-gold/20 flex items-center justify-center gap-3 tracking-wide" data-purpose="announcement-banner">
+<span>✦ Handcrafted Bespoke A4 Memory Frames</span>
+<span class="inline-block w-1.5 h-1.5 rounded-full bg-framora-gold"></span>
+<span>Flat Rate: <strong class="text-white font-semibold">PKR 700</strong> each</span>
+<span class="hidden md:inline-block w-1.5 h-1.5 rounded-full bg-framora-gold"></span>
+<span class="hidden md:inline">Nationwide Delivery Across Pakistan</span>
+</div>
+<!-- END: Announcement Top Bar -->
+<!-- BEGIN: MainHeader -->
+<header class="sticky top-0 z-40 bg-framora-cream/90 backdrop-blur-md border-b border-framora-sand/80 transition-all duration-300">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+<!-- Brand Logo Container -->
+<a class="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-framora-gold rounded-full pr-2" href="#hero">
+<div class="relative w-12 h-12 rounded-full overflow-hidden p-0.5 bg-gradient-to-tr from-framora-goldDark via-framora-gold to-framora-goldLight shadow-md transition-transform duration-300 group-hover:scale-105">
+<!-- Official Framora Logo -->
+<img alt="Framora Official Insignia Crest" class="w-full h-full object-cover rounded-full bg-framora-charcoal" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgom8CXQ9qme_y_N6t7k6X5y807tDuP-vXU0k24vWU_7cemXW2OxK6XFJMWMQ-ximMQaBymDNdoxbpZAd-JJfO0oSRKJAr68mT4jq17sbbXV4wVYB9bcZi4U9hNpLWnoZ5R_lElr5xejty7fBqNTplvVjlDZ0U23bTTIvygftFCg2M_36rIasTqSLitP9apUPocg6NKC_QJhCgoxtmJ6CXY7Y1HNrGlB1I8jkA4LNHRdmkrU-0TlakzyFb_uhYPHaNSw"/>
+</div>
+<div class="flex flex-col">
+<span class="font-serif text-2xl font-bold tracking-widest text-framora-charcoal leading-none group-hover:text-framora-goldDark transition-colors">FRAMORA</span>
+<span class="text-[10px] tracking-widest-plus text-framora-sage uppercase font-medium mt-1">Keep What Matters Most</span>
+</div>
+</a>
+<!-- Desktop Navigation Links -->
+<nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-framora-charcoal/80">
+<a class="hover:text-framora-goldDark transition-colors" href="#hero">Home</a>
+<a class="hover:text-framora-goldDark transition-colors" href="#collections">Collections</a>
+<a class="hover:text-framora-goldDark transition-colors" href="#process">How It Works</a>
+<a class="hover:text-framora-goldDark transition-colors" href="#philosophy">Our Story</a>
+<a class="hover:text-framora-goldDark transition-colors" href="#custom-inquiry">Custom Request</a>
+<button class="hover:text-framora-goldDark transition-colors" id="openAllReviewsBtn" type="button">All Reviews</button>
+</nav>
+<!-- Action Buttons & Cart Toggle -->
+<div class="flex items-center gap-3 sm:gap-4">
+<!-- WhatsApp Direct Contact Button -->
+<a class="hidden sm:inline-flex items-center gap-2 px-3.5 py-2 text-xs font-medium uppercase tracking-wider text-framora-charcoal bg-framora-sand/80 hover:bg-framora-gold hover:text-white rounded-full transition-all duration-200 border border-framora-gold/30" href="https://wa.me/923033332268?text=Hello%20Framora,%20I'm%20interested%20in%20customizing%20a%20memory%20frame." rel="noopener noreferrer" target="_blank" title="Direct WhatsApp Consultation">
+<svg class="w-3.5 h-3.5 fill-current text-green-600 group-hover:text-white" viewbox="0 0 24 24">
+<path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.588-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.288.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.2.662.591 1.221.774 1.394.86.174.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.144.39-.086s1.011.477 1.184.564.289.13.332.203c.044.072.044.419-.1.824z"></path>
+</svg>
+<span>WhatsApp Us</span>
+</a>
+<!-- Instagram Direct Contact Button -->
+<a class="hidden sm:inline-flex items-center gap-2 p-2.5 text-framora-charcoal bg-framora-ivory hover:bg-framora-sand rounded-full transition-all duration-200 border border-framora-sand" href="https://instagram.com/framoraframmes" rel="noopener noreferrer" target="_blank" title="Follow us on Instagram @framoraframmes">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<rect height="18" rx="5" ry="5" stroke-width="1.8" width="18" x="3" y="3"></rect>
+<path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" stroke-width="1.8"></path>
+<line stroke-linecap="round" stroke-width="1.8" x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+</svg>
+</a>
+<!-- Cart Open Trigger Button -->
+<button aria-label="View Shopping Cart" class="relative p-2.5 rounded-full bg-framora-ivory hover:bg-framora-sand border border-framora-sand text-framora-charcoal transition-colors flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-framora-gold" id="cartOpenBtn">
+<svg class="w-5 h-5 text-framora-charcoal" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path>
+</svg>
+<span class="absolute -top-1 -right-1 bg-framora-gold text-white text-[10px] font-bold w-5 h-5 rounded-full flex items-center justify-center border-2 border-framora-cream scale-0 transition-transform duration-200" id="cartBadgeCount">
+            0
+          </span>
+</button>
+<!-- Mobile Menu Toggle Button -->
+<button aria-label="Toggle Navigation Menu" class="md:hidden p-2 rounded-lg text-framora-charcoal hover:bg-framora-sand focus:outline-none" id="mobileMenuToggle">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M4 6h16M4 12h16M4 18h16" id="hamburgerIcon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+</div>
+</div>
+<!-- Mobile Navigation Drawer -->
+<div class="hidden md:hidden border-t border-framora-sand bg-framora-cream px-6 py-5 space-y-4 shadow-xl" id="mobileMenuDrawer">
+<a class="block text-base font-medium text-framora-charcoal py-1 mobile-link" href="#hero">Home</a>
+<a class="block text-base font-medium text-framora-charcoal py-1 mobile-link" href="#collections">Collections</a>
+<a class="block text-base font-medium text-framora-charcoal py-1 mobile-link" href="#process">How It Works</a>
+<a class="block text-base font-medium text-framora-charcoal py-1 mobile-link" href="#philosophy">Our Story</a>
+<a class="block text-base font-medium text-framora-charcoal py-1 mobile-link" href="#custom-inquiry">Custom Request</a>
+<button class="block w-full text-left text-base font-medium text-framora-charcoal py-1 mobile-link" id="openAllReviewsBtnMobile" type="button">All Reviews</button>
+<div class="pt-3 border-t border-framora-sand flex flex-col gap-2">
+<a class="w-full text-center py-2.5 rounded-full bg-framora-charcoal text-framora-ivory text-sm font-semibold tracking-wider uppercase" href="https://wa.me/923033332268" target="_blank">
+          Chat on WhatsApp
+        </a>
+<a class="w-full text-center py-2.5 rounded-full bg-framora-sand/80 text-framora-charcoal text-sm font-semibold tracking-wider uppercase" href="https://instagram.com/framoraframmes" target="_blank">
+          Follow @framoraframmes
+        </a>
+</div>
+</div>
+</header>
+<!-- END: MainHeader -->
+<main>
+<!-- BEGIN: HeroSection -->
+<section class="relative overflow-hidden pt-12 pb-20 lg:pt-20 lg:pb-28 bg-gradient-to-b from-framora-cream via-framora-ivory to-framora-cream" id="hero">
+<!-- Ambient decorative glow -->
+<div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-framora-gold/10 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+<!-- Hero Copy Left Column -->
+<div class="lg:col-span-7 text-center lg:text-left space-y-6">
+<!-- Standard Pill -->
+<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-framora-sage/10 border border-framora-sage/20 text-framora-sage text-xs font-semibold tracking-wide uppercase">
+<span class="w-2 h-2 rounded-full bg-framora-gold"></span>
+<span>Custom memory frames • Standard A4 • PKR 700</span>
+</div>
+<!-- Main Heading -->
+<h1 class="font-serif text-5xl sm:text-6xl lg:text-7xl font-light text-framora-charcoal leading-[1.08] tracking-tight">
+              KEEP WHAT <br/>
+<span class="italic font-normal text-framora-goldDark">MATTERS</span> MOST.
+            </h1>
+<!-- Subtitle -->
+<p class="text-lg sm:text-xl text-framora-charcoal/70 max-w-2xl font-light leading-relaxed">
+              Turn your most meaningful moments into something worth keeping. Hand-assembled memory frames designed to immortalize weddings, bond of sisters, friendships, and milestone moments.
+            </p>
+<!-- Hero CTAs -->
+<div class="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+<a class="w-full sm:w-auto px-8 py-4 bg-framora-charcoal hover:bg-black text-framora-ivory text-xs tracking-widest-plus uppercase font-bold rounded-full shadow-lg hover:shadow-xl transition-all duration-200 text-center" href="#collections">
+                Explore Collections
+              </a>
+<a class="w-full sm:w-auto px-8 py-4 bg-transparent hover:bg-framora-sand text-framora-charcoal border border-framora-charcoal/30 text-xs tracking-widest-plus uppercase font-bold rounded-full transition-all duration-200 flex items-center justify-center gap-2" href="https://wa.me/923033332268?text=Hello%20Framora!%20I'd%20like%20to%20order%20a%20custom%20memory%20frame%20(PKR%20700)." rel="noopener noreferrer" target="_blank">
+<svg class="w-4 h-4 text-green-700" fill="currentColor" viewbox="0 0 24 24">
+<path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.588-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.288.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.2.662.591 1.221.774 1.394.86.174.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.144.39-.086s1.011.477 1.184.564.289.13.332.203c.044.072.044.419-.1.824z"></path>
+</svg>
+<span>Order on WhatsApp</span>
+</a>
+</div>
+<!-- Value Props List -->
+<div class="pt-6 grid grid-cols-3 gap-4 border-t border-framora-sand/70">
+<div>
+<p class="font-serif text-2xl font-bold text-framora-charcoal">PKR 700</p>
+<p class="text-xs text-framora-sage uppercase font-medium">Standard A4 Format</p>
+</div>
+<div>
+<p class="font-serif text-2xl font-bold text-framora-charcoal">Custom</p>
+<p class="text-xs text-framora-sage uppercase font-medium">Design &amp; Typography</p>
+</div>
+<div>
+<p class="font-serif text-2xl font-bold text-framora-charcoal">Direct</p>
+<p class="text-xs text-framora-sage uppercase font-medium">WhatsApp Proofing</p>
+</div>
+</div>
+</div>
+<!-- Hero Frame Mockup Showcase Right Column -->
+<div class="lg:col-span-5 flex justify-center">
+<div class="relative w-full max-w-sm sm:max-w-md">
+<!-- Subtle decorative backdrop offset -->
+<div class="absolute -inset-2 bg-gradient-to-tr from-framora-gold/30 via-framora-sage/20 to-framora-sand rounded-2xl transform rotate-2 blur-sm"></div>
+<!-- Frame Object Presentation -->
+<div class="relative bg-white p-5 rounded-xl shadow-frame border-4 border-framora-charcoal/90">
+<!-- Inner Passepartout Mount -->
+<div class="bg-framora-ivory p-4 border border-framora-sand shadow-inner flex flex-col items-center text-center">
+<!-- Framora Brand Crest Badge inside Frame -->
+<div class="w-full flex justify-center mb-4">
+<img alt="Framora Combination of Frame and Memories" class="h-28 w-auto object-contain rounded-lg drop-shadow-md border border-framora-gold/40" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgdPi1mMsDbdcWqYDU6Ct85qHVvcpXzzz7tQ0abk-tPGVbQ6O4Q_RVbYyz55HvIbOT704Xyv2rCY6yVDs8KWTdovAiQ84REXAyr7nbfXOihK5dTAd7YN4zA69rBttp3b9MEvKgyOpoyCefZEqDquYhruc0gRP4u3emeKIWRkOp2g1iDb1PHfYmJz9qW1HR4Xn-AZN6k-iciq3gVMwNtgFc4A3F2G2YNL73y4x8zAJfUBebtdLHGMEAqd5OEUATW8rNaA"/>
+</div>
+<!-- Sample Frame Memory Detail -->
+<div class="w-full bg-white p-4 border border-framora-sand/60 rounded text-center space-y-2">
+<p class="text-[10px] tracking-widest-plus uppercase text-framora-goldDark font-semibold">Special Edition • A4 Art Print</p>
+<h3 class="font-serif text-xl italic font-semibold text-framora-charcoal">"Combination of Frame and Memories"</h3>
+<p class="text-xs text-framora-charcoal/60 leading-relaxed font-light">
+                      Send your photograph, name &amp; special date. We assemble it ready to display or gift.
+                    </p>
+<div class="pt-2 flex items-center justify-between text-[11px] font-semibold text-framora-sage border-t border-framora-sand">
+<span>Framora Studio</span>
+<span>PKR 700</span>
+</div>
+</div>
+<div class="mt-4 text-[10px] uppercase tracking-widest text-framora-charcoal/40 font-medium">
+                    Handmade in Pakistan • Solid Core Framing
+                  </div>
+</div>
+</div>
+<!-- Floating Micro-badge -->
+<div class="absolute -bottom-4 -right-4 bg-framora-charcoal text-framora-goldLight px-4 py-2 rounded-full shadow-lg border border-framora-gold/40 text-xs font-serif italic flex items-center gap-2">
+<span>✦</span>
+<span>Includes High-Res Print &amp; Glass Mount</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: HeroSection -->
+<!-- BEGIN: CollectionsGridAndFilter -->
+<section class="py-20 bg-framora-cream border-t border-framora-sand/60" id="collections">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Section Header -->
+<div class="text-center max-w-3xl mx-auto space-y-3 mb-12">
+<p class="text-xs uppercase tracking-widest-plus text-framora-goldDark font-semibold">Curated Editions</p>
+<h2 class="font-serif text-4xl sm:text-5xl text-framora-charcoal font-normal">Made for the Moments That Matter</h2>
+<p class="text-framora-charcoal/70 text-sm sm:text-base font-light">
+            Choose the moment. We'll help you turn it into something worth keeping. Every memory is personalized to your photographs and words.
+          </p>
+</div>
+<!-- Collection Category Tiles (default view) -->
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6" id="collectionTilesGrid">
+<!-- Populated by JavaScript -->
+</div>
+<!-- Products View (hidden until a collection tile is clicked) -->
+<div class="hidden" id="productsView">
+<button class="inline-flex items-center gap-2 text-xs uppercase tracking-widest font-semibold text-framora-charcoal/70 hover:text-framora-charcoal mb-8" id="backToCollectionsBtn" type="button">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+            Back to Collections
+          </button>
+<!-- Filter Tab Buttons -->
+<div class="flex items-center justify-start md:justify-center overflow-x-auto pb-4 gap-2 no-scrollbar mb-10" id="collectionFilters">
+<button class="filter-tab active px-5 py-2 rounded-full text-xs uppercase tracking-wider font-semibold bg-framora-charcoal text-white transition-all" data-filter="all">All</button>
+<button class="filter-tab px-5 py-2 rounded-full text-xs uppercase tracking-wider font-semibold bg-framora-sand/70 text-framora-charcoal hover:bg-framora-sand transition-all" data-filter="wedding">Wedding</button>
+<button class="filter-tab px-5 py-2 rounded-full text-xs uppercase tracking-wider font-semibold bg-framora-sand/70 text-framora-charcoal hover:bg-framora-sand transition-all" data-filter="best-friend">Best Friend</button>
+<button class="filter-tab px-5 py-2 rounded-full text-xs uppercase tracking-wider font-semibold bg-framora-sand/70 text-framora-charcoal hover:bg-framora-sand transition-all" data-filter="someone-special">Someone Special</button>
+<button class="filter-tab px-5 py-2 rounded-full text-xs uppercase tracking-wider font-semibold bg-framora-sand/70 text-framora-charcoal hover:bg-framora-sand transition-all" data-filter="birthday">Birthday</button>
+<button class="filter-tab px-5 py-2 rounded-full text-xs uppercase tracking-wider font-semibold bg-framora-sand/70 text-framora-charcoal hover:bg-framora-sand transition-all" data-filter="car-lovers">Car Lovers</button>
+<button class="filter-tab px-5 py-2 rounded-full text-xs uppercase tracking-wider font-semibold bg-framora-sand/70 text-framora-charcoal hover:bg-framora-sand transition-all" data-filter="anime-cartoon">Anime &amp; Cartoon</button>
+<button class="filter-tab px-5 py-2 rounded-full text-xs uppercase tracking-wider font-semibold bg-framora-sand/70 text-framora-charcoal hover:bg-framora-sand transition-all" data-filter="islamic">Islamic</button>
+<button class="filter-tab px-5 py-2 rounded-full text-xs uppercase tracking-wider font-semibold bg-framora-sand/70 text-framora-charcoal hover:bg-framora-sand transition-all" data-filter="motivational">Motivational</button>
+<button class="filter-tab px-5 py-2 rounded-full text-xs uppercase tracking-wider font-semibold bg-framora-sand/70 text-framora-charcoal hover:bg-framora-sand transition-all flex items-center gap-1.5" data-filter="favorites">
+<svg class="w-3.5 h-3.5 fill-current" viewbox="0 0 24 24"><path d="M12 21s-6.7-4.35-9.3-8.28C.86 9.94 1.6 6.4 4.6 5.06c2.1-.94 4.3-.2 5.6 1.53l1.8 2.4 1.8-2.4c1.3-1.73 3.5-2.47 5.6-1.53 3 1.34 3.74 4.88 1.9 7.66C18.7 16.65 12 21 12 21z"></path></svg>
+            My Favorites <span id="favoritesCountBadge">(0)</span>
+</button>
+</div>
+<!-- Dynamic Product Cards Grid Container -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8" id="productGrid">
+<!-- Populated by JavaScript -->
+</div>
+</div>
+</div>
+</section>
+<!-- END: CollectionsGridAndFilter -->
+<!-- BEGIN: HowFramoraPreservesYourStory -->
+<section class="py-20 bg-framora-ivory border-y border-framora-sand" id="process">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-2xl mx-auto space-y-3 mb-16">
+<span class="text-xs uppercase tracking-widest-plus text-framora-sage font-semibold">Artisanal Method</span>
+<h2 class="font-serif text-3xl sm:text-4xl text-framora-charcoal font-light">How Framora Preserves Your Story</h2>
+<p class="text-sm text-framora-charcoal/70">From a fleeting digital memory on your phone to an everlasting physical keepsake on your wall.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 relative">
+<!-- Step 01 -->
+<div class="bg-framora-cream p-7 rounded-xl border border-framora-sand/70 relative flex flex-col justify-between hover:shadow-subtle-card transition-shadow">
+<div>
+<span class="font-serif text-4xl font-light text-framora-goldDark/70 block mb-3">01</span>
+<h3 class="text-base font-bold text-framora-charcoal tracking-wide uppercase mb-2">Share Your Memory</h3>
+<p class="text-sm text-framora-charcoal/70 font-light leading-relaxed">
+                Send us the photograph, message, special date or words you'd like to preserve via WhatsApp.
+              </p>
+</div>
+<div class="mt-6 pt-4 border-t border-framora-sand/40 text-[11px] text-framora-sage font-medium">
+              Photo Upload via WhatsApp
+            </div>
+</div>
+<!-- Step 02 -->
+<div class="bg-framora-cream p-7 rounded-xl border border-framora-sand/70 relative flex flex-col justify-between hover:shadow-subtle-card transition-shadow">
+<div>
+<span class="font-serif text-4xl font-light text-framora-goldDark/70 block mb-3">02</span>
+<h3 class="text-base font-bold text-framora-charcoal tracking-wide uppercase mb-2">We Create Your Design</h3>
+<p class="text-sm text-framora-charcoal/70 font-light leading-relaxed">
+                We turn your memory into a carefully designed frame made especially for you, editing colors and typography.
+              </p>
+</div>
+<div class="mt-6 pt-4 border-t border-framora-sand/40 text-[11px] text-framora-sage font-medium">
+              Custom Proofing Included
+            </div>
+</div>
+<!-- Step 03 -->
+<div class="bg-framora-cream p-7 rounded-xl border border-framora-sand/70 relative flex flex-col justify-between hover:shadow-subtle-card transition-shadow">
+<div>
+<span class="font-serif text-4xl font-light text-framora-goldDark/70 block mb-3">03</span>
+<h3 class="text-base font-bold text-framora-charcoal tracking-wide uppercase mb-2">We Craft Your Frame</h3>
+<p class="text-sm text-framora-charcoal/70 font-light leading-relaxed">
+                Your design is printed in rich pigment ink, mounted inside standard A4 framing, assembled and prepared with care.
+              </p>
+</div>
+<div class="mt-6 pt-4 border-t border-framora-sand/40 text-[11px] text-framora-sage font-medium">
+              Solid Construction &amp; Finish
+            </div>
+</div>
+<!-- Step 04 -->
+<div class="bg-framora-cream p-7 rounded-xl border border-framora-sand/70 relative flex flex-col justify-between hover:shadow-subtle-card transition-shadow">
+<div>
+<span class="font-serif text-4xl font-light text-framora-goldDark/70 block mb-3">04</span>
+<h3 class="text-base font-bold text-framora-charcoal tracking-wide uppercase mb-2">Keep What Matters Most</h3>
+<p class="text-sm text-framora-charcoal/70 font-light leading-relaxed">
+                Your finished frame arrives safely packaged, ready to become part of your home — and your enduring story.
+              </p>
+</div>
+<div class="mt-6 pt-4 border-t border-framora-sand/40 text-[11px] text-framora-sage font-medium">
+              Doorstep Delivery
+            </div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: HowFramoraPreservesYourStory -->
+<!-- BEGIN: AtelierPhilosophy -->
+<section class="py-24 bg-framora-charcoal text-framora-ivory relative overflow-hidden" id="philosophy">
+<!-- Decorative Logo Watermark in background -->
+<div class="absolute -right-20 -bottom-20 opacity-5 pointer-events-none w-96 h-96">
+<img alt="Framora Watermark" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDd0kl40c7-zIsMS82u5lFYCg3rrrpTcoOzL7Ao_Y5XVbTfqm4M8C-3D16naBTPtaMyFRWOEZqfX0FTF7KsQbmyDrR8O2f3WAlvOXdMU_SEmYkHO5hjR3MLUptS1brlxBheX3YkIDoz6xdaa2B3elTiMQtn1ETqw9C6Oeu6dEfp27a0J22Q3fMKe1f3owX0Ph0r99h1GkFLVLyOW6P7tYCVHLPvFTf_BNJFgERGoi3pRIK7vz_EVzUYl3V3RRn5W9-x_A"/>
+</div>
+<div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<div class="text-center space-y-4 mb-14">
+<p class="text-xs uppercase tracking-widest-plus text-framora-gold font-semibold">The Atelier Philosophy</p>
+<h2 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-normal leading-tight">
+            Some Moments Deserve More Than a Photograph.
+          </h2>
+</div>
+<div class="bg-framora-night/80 border border-framora-gold/20 p-8 sm:p-12 rounded-2xl backdrop-blur-sm space-y-6">
+<p class="text-lg sm:text-xl font-light text-framora-goldLight/90 leading-relaxed italic text-center font-serif">
+            "At Framora, we believe meaningful moments deserve a special place in your life. We combine thoughtful design, personal memories and beautiful frames to create something uniquely yours."
+          </p>
+<hr class="border-framora-gold/20 w-24 mx-auto my-6"/>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm text-framora-ivory/80 font-light leading-relaxed">
+<p>
+              In a world where thousands of photographs remain buried inside phone camera rolls, never to be touched again, Framora exists to extract the one photograph that defines an era, a feeling, or a person who changed everything.
+            </p>
+<p>
+              Every single A4 frame for PKR 700 is crafted with individual attention: our designer personally reviews your photographs, calibrates the aesthetics, and readies it for physical display.
+            </p>
+</div>
+</div>
+</div>
+</section>
+<!-- END: AtelierPhilosophy -->
+<!-- BEGIN: SpecialCustomizationBanner -->
+<section class="py-16 bg-gradient-to-r from-framora-sand/60 via-framora-cream to-framora-sand/60 border-b border-framora-sand" id="custom-inquiry">
+<div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-5">
+<span class="inline-block px-3 py-1 rounded-full bg-framora-gold/15 text-framora-goldDark text-xs font-semibold tracking-wider uppercase">Bespoke Inquiries</span>
+<h3 class="font-serif text-3xl sm:text-4xl text-framora-charcoal font-normal">
+          Looking for something different?
+        </h3>
+<p class="text-framora-charcoal/80 max-w-xl mx-auto text-sm sm:text-base font-light">
+          Need a special frame size, alternate dimensions, collage style or custom wood framing? We may be able to help. Message us directly on WhatsApp.
+        </p>
+<div class="pt-2">
+<a class="inline-flex items-center gap-3 px-8 py-3.5 rounded-full bg-framora-charcoal text-white text-xs uppercase tracking-widest font-semibold hover:bg-black transition-all shadow-md" href="https://wa.me/923033332268?text=Hello%20Framora,%20I'm%20inquiring%20about%20a%20special%20custom%20size/style%20frame." rel="noopener noreferrer" target="_blank">
+<svg class="w-4 h-4 text-green-400 fill-current" viewbox="0 0 24 24">
+<path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.588-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.288.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.2.662.591 1.221.774 1.394.86.174.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.144.39-.086s1.011.477 1.184.564.289.13.332.203c.044.072.044.419-.1.824z"></path>
+</svg>
+<span>Chat With Framora</span>
+</a>
+</div>
+</div>
+</section>
+<!-- END: SpecialCustomizationBanner -->
+</main>
+<!-- BEGIN: MainFooter -->
+<footer class="bg-framora-charcoal text-framora-ivory pt-16 pb-12 border-t border-framora-gold/20">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-framora-ivory/10">
+<!-- Brand & Slogan -->
+<div class="md:col-span-5 space-y-4">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-full overflow-hidden p-0.5 bg-gradient-to-tr from-framora-goldDark to-framora-gold">
+<!-- Official Framora Logo Footer -->
+<img alt="Framora Boutique" class="w-full h-full object-cover rounded-full bg-framora-charcoal" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDafGEq1wW2J2_zLUjS7jsaabzkw2sHmWA0payQBuh0ujMZrIKh8Vvyv1WwDUWtLVz1NugtTKAXsa497jKbk5Sq6yKixnMBPjOnQ8j37dLIuZU8otmKePD67TyQIkvN-HR22fqCVq3pMrM_BNAlOM8wKffvDBKrwZYptBKHaOaNnun0vN64P4jrLHjBmD9eUJNzF4FDqvvM46D9lhdM6LEfxrUHtUQKs6EviadCGwN-NDtIvSdF3BfeY0gQYF9AL4izSw"/>
+</div>
+<div>
+<span class="font-serif text-2xl font-bold tracking-wider block leading-tight">FRAMORA</span>
+<span class="text-xs text-framora-goldLight tracking-widest-plus uppercase">Keep What Matters Most</span>
+</div>
+</div>
+<p class="text-sm text-framora-ivory/70 max-w-sm font-light leading-relaxed">
+            Framora pairs sentimental memories with artisanal frame design. Standard A4 format for PKR 700. Made with passion for homes that value story.
+          </p>
+</div>
+<!-- Quick Links -->
+<div class="md:col-span-3 space-y-3">
+<h4 class="text-xs uppercase tracking-widest text-framora-gold font-bold">Navigation</h4>
+<ul class="space-y-2 text-sm text-framora-ivory/80">
+<li><a class="hover:text-white transition-colors" href="#hero">Home Studio</a></li>
+<li><a class="hover:text-white transition-colors" href="#collections">Curated Collections</a></li>
+<li><a class="hover:text-white transition-colors" href="#process">How We Preserve</a></li>
+<li><a class="hover:text-white transition-colors" href="#philosophy">The Philosophy</a></li>
+<li><a class="hover:text-white transition-colors" href="#custom-inquiry">Special Orders</a></li>
+</ul>
+</div>
+<!-- Direct Contact & Socials -->
+<div class="md:col-span-4 space-y-3">
+<h4 class="text-xs uppercase tracking-widest text-framora-gold font-bold">Connect With Us</h4>
+<p class="text-sm text-framora-ivory/70">
+            Questions regarding design, delivery times or bulk orders?
+          </p>
+<div class="pt-1 space-y-2">
+<!-- WhatsApp -->
+<a class="inline-flex items-center gap-2 text-sm text-framora-goldLight hover:text-white transition-colors font-medium" href="https://wa.me/923033332268" rel="noopener noreferrer" target="_blank">
+<span>WhatsApp: +92 303 3332268</span>
+</a>
+<br/>
+<!-- Instagram -->
+<a class="inline-flex items-center gap-2 text-sm text-framora-goldLight hover:text-white transition-colors font-medium" href="https://www.instagram.com/framoraframmes/" rel="noopener noreferrer" target="_blank">
+<span>Instagram: @framoraframmes</span>
+</a>
+</div>
+<!-- Email Newsletter Subscription -->
+<div class="pt-5">
+<h5 class="text-xs uppercase tracking-widest text-framora-gold font-bold mb-2">Get Shop Updates by Email</h5>
+<form class="flex flex-col sm:flex-row gap-2" id="newsletterForm">
+<input class="flex-1 min-w-0 rounded-full border-none bg-white/10 text-white placeholder-white/40 text-xs px-4 py-2.5 focus:outline-none focus:ring-1 focus:ring-framora-gold" id="newsletterEmail" placeholder="you@gmail.com" required="" type="email"/>
+<button class="px-5 py-2.5 rounded-full bg-framora-gold text-framora-charcoal text-xs font-bold uppercase tracking-wider hover:bg-framora-goldLight transition-colors shrink-0" type="submit">
+              Subscribe
+            </button>
+</form>
+<p class="text-[10px] text-framora-ivory/40 mt-1.5">Join with your Gmail or email for new designs, discounts &amp; restock updates.</p>
+</div>
+</div>
+</div>
+<!-- Copyright & Disclaimer -->
+<div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-framora-ivory/50 gap-4">
+<p>© <span id="currentYear"></span> FRAMORA. All rights reserved.</p>
+<p class="tracking-wide">Crafted with care in Pakistan • Combination of Frame and Memories</p>
+</div>
+</div>
+</footer>
+<!-- END: MainFooter -->
+<!-- BEGIN: CartSlideOverDrawer -->
+<div aria-labelledby="cartDrawerTitle" aria-modal="true" class="fixed inset-0 z-50 overflow-hidden hidden" id="cartModal" role="dialog">
+<!-- Backdrop overlay -->
+<div class="fixed inset-0 bg-black/60 backdrop-blur-xs transition-opacity duration-300 opacity-0" id="cartBackdrop"></div>
+<div class="fixed inset-y-0 right-0 pl-10 max-w-full flex">
+<div class="w-screen max-w-md bg-framora-cream border-l border-framora-sand shadow-2xl flex flex-col transform translate-x-full transition-transform duration-300 ease-in-out" id="cartPanel">
+<!-- Cart Drawer Header -->
+<div class="p-6 border-b border-framora-sand flex items-center justify-between bg-framora-ivory">
+<div class="flex items-center gap-2">
+<h2 class="font-serif text-2xl text-framora-charcoal" id="cartDrawerTitle">Your Keepsakes</h2>
+<span class="text-xs bg-framora-sand px-2 py-0.5 rounded-full text-framora-charcoal font-semibold" id="cartHeaderCount">0</span>
+</div>
+<button class="p-2 text-framora-charcoal/60 hover:text-framora-charcoal rounded-full hover:bg-framora-sand focus:outline-none" id="cartCloseBtn">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+</div>
+<!-- Cart Items List Container -->
+<div class="flex-1 overflow-y-auto p-6 space-y-4" id="cartItemList">
+<!-- Dynamically filled with items -->
+</div>
+<!-- Cart Empty State -->
+<div class="hidden flex-1 flex flex-col items-center justify-center p-8 text-center" id="cartEmptyState">
+<div class="w-16 h-16 rounded-full bg-framora-sand/50 flex items-center justify-center text-framora-sage mb-4">
+<svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+</svg>
+</div>
+<p class="font-serif text-xl text-framora-charcoal mb-1">Your cart is empty</p>
+<p class="text-xs text-framora-charcoal/60 max-w-xs mb-6">Choose a memory frame collection to begin preserving what matters most.</p>
+<button class="px-6 py-2.5 rounded-full bg-framora-charcoal text-white text-xs uppercase tracking-wider font-semibold hover:bg-black" id="cartExploreBtn">
+            Browse Collections
+          </button>
+</div>
+<!-- Cart Summary & Checkout Trigger Footer -->
+<div class="p-6 border-t border-framora-sand bg-framora-ivory space-y-4" id="cartFooter">
+<div class="flex justify-between items-center text-sm">
+<span class="text-framora-charcoal/70">Standard A4 Frames</span>
+<span class="font-semibold text-framora-charcoal" id="cartItemsSubtotal">PKR 0</span>
+</div>
+<div class="flex justify-between items-center text-sm hidden" id="cartBundleDiscountRow">
+<span class="text-framora-sage font-semibold">✦ Bundle Discount</span>
+<span class="font-semibold text-framora-sage" id="cartBundleDiscountAmount">- PKR 0</span>
+</div>
+<div class="flex justify-between items-center text-sm hidden" id="cartDeliveryChargeRow">
+<span class="text-framora-charcoal/70">Delivery Charges</span>
+<span class="font-semibold text-framora-charcoal" id="cartDeliveryChargeAmount">PKR 0</span>
+</div>
+<div class="flex justify-between items-baseline pt-2 border-t border-framora-sand/70">
+<span class="text-base font-serif font-bold text-framora-charcoal">Total Amount</span>
+<span class="text-xl font-bold font-serif text-framora-goldDark" id="cartTotalSum">PKR 0</span>
+</div>
+<button class="w-full py-3.5 bg-framora-charcoal hover:bg-black text-white text-xs uppercase tracking-widest font-bold rounded-full shadow-md transition-colors" id="proceedToCheckoutBtn">
+            Review Order &amp; Checkout
+          </button>
+<div class="rounded-xl bg-white/70 border border-framora-sand/80 p-3 text-[10px] text-framora-charcoal/60 leading-relaxed space-y-1.5">
+  <p><strong class="text-framora-charcoal">1.</strong> Review your frames and quantities above.</p>
+  <p><strong class="text-framora-charcoal">2.</strong> Enter your delivery details at checkout.</p>
+  <p><strong class="text-framora-charcoal">3.</strong> Pay the shown total through <strong class="text-framora-charcoal">JazzCash or EasyPaisa</strong>, then send the payment screenshot for confirmation.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- END: CartSlideOverDrawer -->
+<!-- BEGIN: ProductDetailModal -->
+<div aria-labelledby="modalProductTitle" aria-modal="true" class="fixed inset-0 z-50 overflow-y-auto hidden" id="productDetailModal" role="dialog">
+<div class="flex items-center justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:p-0">
+<div class="fixed inset-0 bg-black/60 backdrop-blur-xs transition-opacity" id="productModalBackdrop"></div>
+<div class="relative bg-white rounded-2xl max-w-3xl w-full p-6 sm:p-8 text-left shadow-2xl transform transition-all border border-framora-sand my-8">
+<!-- Close modal button -->
+<button class="absolute top-4 right-4 p-2 text-framora-charcoal/60 hover:text-framora-charcoal rounded-full hover:bg-framora-sand" id="closeProductModalBtn">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
+<!-- Image Presentation inside Modal -->
+<div class="bg-framora-ivory p-4 rounded-xl border border-framora-sand flex flex-col items-center justify-center text-center">
+<div class="w-full max-w-[220px] aspect-[3/4] rounded-lg overflow-hidden border-2 border-framora-gold/50 mb-4 shadow-frame">
+<img alt="Frame Preview" class="w-full h-full object-cover" id="modalProductImg" src=""/>
+</div>
+<span class="text-[10px] tracking-widest uppercase text-framora-sage font-bold" id="modalProductCategory">Category</span>
+<h4 class="font-serif text-2xl font-bold text-framora-charcoal mt-1" id="modalProductTitle">Product Title</h4>
+<span class="mt-2 inline-block px-3 py-1 bg-framora-gold/15 text-framora-goldDark rounded-full text-xs font-semibold">
+              Standard A4 • Glass Encased
+            </span>
+</div>
+<!-- Product Details & Actions -->
+<div class="space-y-4">
+<div>
+<p class="text-2xl font-serif font-bold text-framora-goldDark" id="modalProductPrice">PKR 700</p>
+<p class="text-xs text-framora-charcoal/70 mt-1 leading-relaxed" id="modalProductDesc">
+                Collection description.
+              </p>
+</div>
+<div class="p-3 bg-framora-cream rounded-lg border border-framora-sand text-xs text-framora-charcoal/80 space-y-1">
+<p class="font-semibold text-framora-charcoal">Your Memory, Your Way</p>
+<p class="text-[11px] leading-relaxed text-framora-charcoal/70">
+                The frame is presented in our standard A4 format. Tell us how you'd like your photograph or design edited, and we'll work from your instructions.
+              </p>
+</div>
+<!-- Quantity Selector -->
+<div class="flex items-center gap-4">
+<span class="text-xs font-medium uppercase tracking-wider text-framora-charcoal/70">Quantity:</span>
+<div class="flex items-center border border-framora-sand rounded-full overflow-hidden bg-framora-ivory">
+<button class="px-3 py-1 text-sm font-semibold hover:bg-framora-sand" id="modalQtyMinus">-</button>
+<span class="px-3 py-1 text-xs font-bold text-framora-charcoal" id="modalQtyVal">1</span>
+<button class="px-3 py-1 text-sm font-semibold hover:bg-framora-sand" id="modalQtyPlus">+</button>
+</div>
+</div>
+<!-- Buttons inside Modal -->
+<div class="space-y-2 pt-2">
+<button class="w-full py-3 bg-framora-charcoal hover:bg-black text-white text-xs uppercase tracking-widest font-bold rounded-full transition-colors shadow-sm" id="modalAddToCartBtn">
+                Add To Cart • PKR <span id="modalBtnPrice">700</span>
+</button>
+<button class="w-full py-2.5 bg-transparent border border-framora-gold/60 text-framora-charcoal hover:bg-framora-sand text-xs uppercase tracking-wider font-semibold rounded-full flex items-center justify-center gap-2 transition-colors" id="modalWhatsAppDirectBtn">
+<svg class="w-3.5 h-3.5 text-green-600 fill-current" viewbox="0 0 24 24">
+<path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.588-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.288.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.2.662.591 1.221.774 1.394.86.174.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.144.39-.086s1.011.477 1.184.564.289.13.332.203c.044.072.044.419-.1.824z"></path>
+</svg>
+<span>Instant Order via WhatsApp</span>
+</button>
+</div>
+<p class="text-[11px] text-framora-charcoal/60 italic text-center">
+              Need a different frame size or special customization? Message us on WhatsApp and we'll discuss it with you.
+            </p>
+</div>
+</div>
+<!-- BEGIN: Reviews & Questions -->
+<div class="mt-8 pt-6 border-t border-framora-sand" id="modalReviewsQA">
+<div class="flex items-center gap-6 border-b border-framora-sand mb-2">
+<button class="pb-3 text-xs font-bold uppercase tracking-wider border-b-2 border-framora-charcoal text-framora-charcoal transition-colors" id="reviewsTabBtn" type="button">
+              Reviews <span id="modalReviewCount">(0)</span>
+</button>
+<button class="pb-3 text-xs font-bold uppercase tracking-wider border-b-2 border-transparent text-framora-charcoal/40 hover:text-framora-charcoal/70 transition-colors" id="questionsTabBtn" type="button">
+              Questions <span id="modalQuestionCount">(0)</span>
+</button>
+</div>
+<p class="text-[10px] text-framora-charcoal/40 italic mb-5" id="reviewsScopeNote"></p>
+<!-- Reviews Panel -->
+<div id="reviewsPanel">
+<div class="hidden items-center gap-3 mb-5" id="modalRatingSummary">
+<span class="font-serif text-3xl font-bold text-framora-charcoal" id="modalAvgRating">0.0</span>
+<div>
+<div class="flex items-center gap-0.5" id="modalAvgStars"></div>
+<p class="text-[11px] text-framora-charcoal/60 mt-0.5">Based on <span id="modalReviewCount2">0</span> reviews</p>
+</div>
+</div>
+<div class="space-y-4 max-h-72 overflow-y-auto pr-1" id="reviewsList"></div>
+<button class="mt-5 w-full py-2.5 border border-framora-gold/60 text-framora-charcoal hover:bg-framora-sand text-xs uppercase tracking-wider font-semibold rounded-full transition-colors" id="toggleReviewFormBtn" type="button">
+            Write a Review
+          </button>
+<form class="hidden mt-4 p-4 bg-framora-ivory rounded-lg border border-framora-sand space-y-3" id="reviewForm">
+<div>
+<label class="text-[11px] font-semibold uppercase tracking-wider text-framora-charcoal/70">Your Rating</label>
+<div class="flex gap-1 mt-1" id="reviewStarPicker"></div>
+<input id="reviewRatingInput" type="hidden" value="5"/>
+</div>
+<div>
+<label class="text-[11px] font-semibold uppercase tracking-wider text-framora-charcoal/70" for="reviewNameInput">Your Name</label>
+<input class="mt-1 w-full text-xs rounded-lg border border-framora-sand px-3 py-2 focus:outline-none focus:ring-1 focus:ring-framora-gold" id="reviewNameInput" maxlength="60" placeholder="e.g. Ayesha K." required="" type="text"/>
+</div>
+<div>
+<label class="text-[11px] font-semibold uppercase tracking-wider text-framora-charcoal/70" for="reviewTextInput">Your Review</label>
+<textarea class="mt-1 w-full text-xs rounded-lg border border-framora-sand px-3 py-2 focus:outline-none focus:ring-1 focus:ring-framora-gold" id="reviewTextInput" maxlength="500" placeholder="Tell others about the frame quality, print, delivery..." required="" rows="3"></textarea>
+</div>
+<div class="flex gap-2">
+<button class="flex-1 py-2 bg-framora-charcoal hover:bg-black text-white text-xs uppercase tracking-widest font-bold rounded-full transition-colors" type="submit">Submit Review</button>
+<button class="px-4 py-2 text-xs font-semibold text-framora-charcoal/60 hover:text-framora-charcoal" id="cancelReviewFormBtn" type="button">Cancel</button>
+</div>
+</form>
+</div>
+<!-- Questions Panel -->
+<div class="hidden" id="questionsPanel">
+<div class="space-y-4 max-h-72 overflow-y-auto pr-1" id="questionsList"></div>
+<button class="mt-5 w-full py-2.5 border border-framora-gold/60 text-framora-charcoal hover:bg-framora-sand text-xs uppercase tracking-wider font-semibold rounded-full transition-colors" id="toggleQuestionFormBtn" type="button">
+            Ask a Question
+          </button>
+<form class="hidden mt-4 p-4 bg-framora-ivory rounded-lg border border-framora-sand space-y-3" id="questionForm">
+<div>
+<label class="text-[11px] font-semibold uppercase tracking-wider text-framora-charcoal/70" for="questionNameInput">Your Name</label>
+<input class="mt-1 w-full text-xs rounded-lg border border-framora-sand px-3 py-2 focus:outline-none focus:ring-1 focus:ring-framora-gold" id="questionNameInput" maxlength="60" placeholder="e.g. Bilal" required="" type="text"/>
+</div>
+<div>
+<label class="text-[11px] font-semibold uppercase tracking-wider text-framora-charcoal/70" for="questionTextInput">Your Question</label>
+<textarea class="mt-1 w-full text-xs rounded-lg border border-framora-sand px-3 py-2 focus:outline-none focus:ring-1 focus:ring-framora-gold" id="questionTextInput" maxlength="400" placeholder="Ask about sizing, delivery time, customization..." required="" rows="2"></textarea>
+</div>
+<div class="flex gap-2">
+<button class="flex-1 py-2 bg-framora-charcoal hover:bg-black text-white text-xs uppercase tracking-widest font-bold rounded-full transition-colors" type="submit">Submit Question</button>
+<button class="px-4 py-2 text-xs font-semibold text-framora-charcoal/60 hover:text-framora-charcoal" id="cancelQuestionFormBtn" type="button">Cancel</button>
+</div>
+</form>
+</div>
+</div>
+<!-- END: Reviews & Questions -->
+</div>
+</div>
+</div>
+<!-- END: ProductDetailModal -->
+<!-- BEGIN: AllReviewsModal (shop-wide, every product's reviews in one place) -->
+<div aria-labelledby="allReviewsTitle" aria-modal="true" class="fixed inset-0 z-50 overflow-y-auto hidden" id="allReviewsModal" role="dialog">
+<div class="flex items-center justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:p-0">
+<div class="fixed inset-0 bg-black/60 backdrop-blur-xs transition-opacity" id="allReviewsBackdrop"></div>
+<div class="inline-block align-bottom bg-framora-cream rounded-2xl text-left overflow-hidden shadow-2xl transform transition-all sm:my-8 sm:align-middle max-w-2xl w-full">
+<div class="p-6 border-b border-framora-sand flex items-center justify-between bg-framora-ivory">
+<h3 class="font-serif text-2xl font-bold text-framora-charcoal" id="allReviewsTitle">All Customer Reviews</h3>
+<button class="p-2 text-framora-charcoal/60 hover:text-framora-charcoal rounded-full hover:bg-framora-sand focus:outline-none" id="closeAllReviewsBtn">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+</div>
+<div class="p-6 max-h-[70vh] overflow-y-auto space-y-5" id="allReviewsList">
+<!-- Populated by JavaScript -->
+</div>
+</div>
+</div>
+</div>
+<!-- END: AllReviewsModal -->
+<!-- BEGIN: CheckoutModal -->
+<div aria-labelledby="checkoutTitle" aria-modal="true" class="fixed inset-0 z-50 overflow-y-auto hidden" id="checkoutModal" role="dialog">
+<div class="flex items-center justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:p-0">
+<div class="fixed inset-0 bg-black/70 backdrop-blur-xs transition-opacity" id="checkoutBackdrop"></div>
+<div class="relative bg-framora-cream rounded-2xl max-w-xl w-full p-6 sm:p-8 text-left shadow-2xl border border-framora-sand my-8">
+<!-- Modal Header -->
+<div class="flex items-center justify-between pb-4 border-b border-framora-sand">
+<div>
+<span class="text-[10px] uppercase tracking-widest-plus text-framora-sage font-bold">Review • Delivery • Payment</span>
+<h3 class="font-serif text-2xl font-bold text-framora-charcoal" id="checkoutTitle">Complete Your Order</h3>
+</div>
+<button class="p-2 text-framora-charcoal/60 hover:text-framora-charcoal rounded-full hover:bg-framora-sand" id="closeCheckoutBtn">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+</div>
+<!-- Checkout Form -->
+<form class="mt-6 space-y-4" id="checkoutForm">
+<!-- Notice: No Login Required -->
+<div class="p-3 bg-framora-ivory border border-framora-sand/80 rounded-lg text-xs text-framora-charcoal/80 flex items-start gap-2.5">
+<span class="text-framora-gold font-bold">✦</span>
+<span>No account or login required. We use your details strictly to coordinate courier delivery and WhatsApp design proofing.</span>
+</div>
+<!-- Customer Name & WhatsApp Phone -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div>
+<label class="block text-xs font-semibold uppercase tracking-wider text-framora-charcoal mb-1" for="custName">
+                Full Name <span class="text-red-500">*</span>
+</label>
+<input class="w-full rounded-lg border-framora-sand bg-white text-sm focus:border-framora-gold focus:ring-framora-gold" id="custName" placeholder="e.g. Ayesha Khan" required="" type="text"/>
+</div>
+<div>
+<label class="block text-xs font-semibold uppercase tracking-wider text-framora-charcoal mb-1" for="custPhone">
+                WhatsApp Number <span class="text-red-500">*</span>
+</label>
+<input class="w-full rounded-lg border-framora-sand bg-white text-sm focus:border-framora-gold focus:ring-framora-gold" id="custPhone" placeholder="e.g. 0300 1234567" required="" type="tel"/>
+</div>
+</div>
+<!-- Customer Email & City -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div>
+<label class="block text-xs font-semibold uppercase tracking-wider text-framora-charcoal mb-1" for="custEmail">
+                Email Address <span class="text-red-500">*</span>
+</label>
+<input class="w-full rounded-lg border-framora-sand bg-white text-sm focus:border-framora-gold focus:ring-framora-gold" id="custEmail" placeholder="ayesha@example.com" required="" type="email"/>
+</div>
+<div>
+<label class="block text-xs font-semibold uppercase tracking-wider text-framora-charcoal mb-1" for="custCity">
+                City <span class="text-red-500">*</span>
+</label>
+<input class="w-full rounded-lg border-framora-sand bg-white text-sm focus:border-framora-gold focus:ring-framora-gold" id="custCity" placeholder="e.g. Karachi, Lahore, Islamabad" required="" type="text"/>
+</div>
+</div>
+<!-- Delivery Full Address -->
+<div>
+<label class="block text-xs font-semibold uppercase tracking-wider text-framora-charcoal mb-1" for="custAddress">
+              Complete Delivery Address <span class="text-red-500">*</span>
+</label>
+<textarea class="w-full rounded-lg border-framora-sand bg-white text-sm focus:border-framora-gold focus:ring-framora-gold" id="custAddress" placeholder="House/Apartment #, Street, Sector/Area, Landmark..." required="" rows="2"></textarea>
+</div>
+<!-- Photo Editing & Design Instructions -->
+<div>
+<label class="block text-xs font-semibold uppercase tracking-wider text-framora-charcoal mb-1" for="custInstructions">
+              Photo / Design Editing Instructions
+            </label>
+<textarea class="w-full rounded-lg border-framora-sand bg-white text-sm focus:border-framora-gold focus:ring-framora-gold" id="custInstructions" placeholder="e.g. 'Add names Sarah &amp; Bilal, date 12.11.2023, make image black &amp; white with gold border accent...'" rows="2"></textarea>
+<p class="text-[11px] text-framora-sage font-medium mt-1">
+              ✦ Important: Please send your actual high-resolution photographs directly via WhatsApp after placing your order!
+            </p>
+</div>
+<!-- Special Frame Customization Request -->
+<div>
+<label class="block text-xs font-semibold uppercase tracking-wider text-framora-charcoal mb-1" for="custCustomFrame">
+              Special Frame Requests (Optional)
+            </label>
+<textarea class="w-full rounded-lg border-framora-sand bg-white text-sm focus:border-framora-gold focus:ring-framora-gold" id="custCustomFrame" placeholder="Need a different frame size, style or special frame customization? Tell us here. We'll discuss it on WhatsApp." rows="1"></textarea>
+</div>
+<!-- Payment Method: JazzCash / EasyPaisa only -->
+<div>
+<label class="block text-xs font-semibold uppercase tracking-wider text-framora-charcoal mb-2">
+  Payment
+</label>
+<input id="payJazzcash" name="paymentMethod" type="hidden" value="jazzcash-easypaisa"/>
+<div class="rounded-xl bg-framora-ivory border border-framora-gold/50 p-4 text-xs text-framora-charcoal shadow-sm" id="jazzcashDetailsBox">
+  <div class="flex items-center justify-between gap-3 mb-2">
+    <p class="font-bold">JazzCash / EasyPaisa</p>
+    <span class="px-2 py-1 rounded-full bg-framora-gold/15 text-framora-goldDark text-[9px] font-bold uppercase tracking-wider">Only Payment Option</span>
+  </div>
+  <p class="text-[11px] text-framora-charcoal/65 mb-2">Send the exact <strong>Order Payable Amount</strong> shown below to:</p>
+  <p>Number: <span class="font-bold">0303-3332268</span></p>
+  <p>Account Title: <span class="font-bold">Muhammad Makki</span></p>
+  <p class="text-[10px] text-framora-sage font-semibold mt-2">✦ After payment, send the screenshot on WhatsApp so we can confirm your order.</p>
+</div>
+</div>
+<!-- Order Summary Line -->
+<div class="pt-3 border-t border-framora-sand space-y-2">
+<div class="flex items-center justify-between text-xs text-framora-charcoal/70">
+<span>Frames Total</span>
+<span class="font-semibold text-framora-charcoal" id="checkoutFramesSubtotal">PKR 0</span>
+</div>
+<div class="flex items-center justify-between text-xs text-framora-charcoal/70">
+<span>Delivery Charges</span>
+<span class="font-semibold text-framora-charcoal" id="checkoutDeliveryAmount">PKR 150</span>
+</div>
+<p class="text-[10px] text-framora-sage font-semibold hidden" id="checkoutBundleNote">✦ Bundle discount applied!</p>
+<div class="flex items-center justify-between pt-2 border-t border-framora-sand/70">
+<div>
+<p class="text-xs text-framora-charcoal/70">Total Amount:</p>
+<p class="font-serif text-2xl font-bold text-framora-goldDark" id="checkoutTotalAmount">PKR 0</p>
+</div>
+<div class="text-right text-[11px] text-framora-charcoal/60">
+              Standard A4 Memory Frames<br/>
+              Payment: JazzCash / EasyPaisa
+            </div>
+</div>
+</div>
+<!-- Submit Order CTA -->
+<div class="pt-2">
+<button class="w-full py-4 bg-framora-charcoal hover:bg-black text-white text-xs uppercase tracking-widest-plus font-bold rounded-full shadow-lg transition-all flex items-center justify-center gap-2" id="submitOrderBtn" type="submit">
+<span>Confirm Order &amp; Continue to WhatsApp</span>
+<svg class="w-4 h-4 text-green-400 fill-current" viewbox="0 0 24 24">
+<path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.588-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.288.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.2.662.591 1.221.774 1.394.86.174.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.144.39-.086s1.011.477 1.184.564.289.13.332.203c.044.072.044.419-.1.824z"></path>
+</svg>
+</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+<!-- END: CheckoutModal -->
+<!-- BEGIN: OrderSuccessModal -->
+<div aria-labelledby="successTitle" aria-modal="true" class="fixed inset-0 z-50 overflow-y-auto hidden" id="orderSuccessModal" role="dialog">
+<div class="flex items-center justify-center min-h-screen px-4 text-center">
+<div class="fixed inset-0 bg-black/75 backdrop-blur-xs"></div>
+<div class="relative bg-framora-cream rounded-2xl max-w-md w-full p-8 text-center shadow-2xl border border-framora-gold/40 my-8 space-y-6">
+<!-- Seal of Craftsmanship -->
+<div class="w-20 h-20 mx-auto rounded-full p-1 bg-gradient-to-tr from-framora-gold to-framora-goldLight shadow-md flex items-center justify-center">
+<img alt="Framora Success Crest" class="w-full h-full object-cover rounded-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBr30qvrEJofT0qttPheDMsEskfX32QIFThxMRWzhJhiGD88VwukYpta9IBAIeDAHH_2w48aO7gMdY8t0pd2_OsQ09MU2OfBtuq5pcxqi84zgCJvgLC6wqRN4dFdffuaWWMNnQp4-646FYTZVdxDNlIS8SPci5oJE9hHhoisciTb-dFd4EKFUXUIf8hmjQr5KoVxT7Xdx6lOT-Hy1I14RAC77TXI47V33pWm5ZBnYVFkftSB3MgGPhAKWhcHNEARYq_AA"/>
+</div>
+<div class="space-y-2">
+<span class="text-xs uppercase tracking-widest-plus text-framora-goldDark font-bold">Order Received</span>
+<h3 class="font-serif text-3xl font-bold text-framora-charcoal" id="successTitle">Your order is ready ✦</h3>
+<p class="text-sm font-medium text-framora-charcoal">
+            Order Reference: <span class="font-mono font-bold text-framora-goldDark" id="successOrderRef">FR-0000</span>
+</p>
+</div>
+<div class="bg-framora-ivory p-4 rounded-xl border border-framora-sand text-xs text-framora-charcoal/80 space-y-2 text-left">
+<p class="font-semibold text-framora-charcoal">Choose How You'd Like to Send Your Photos</p>
+<p class="leading-relaxed">
+            Your order details are saved. Now choose <strong>one</strong> option below to send your high-resolution photographs and any design notes for this order.
+          </p>
+</div>
+<div class="space-y-3">
+<a class="w-full py-4 bg-framora-charcoal hover:bg-black text-white text-xs uppercase tracking-widest font-bold rounded-full shadow-lg transition-all flex items-center justify-center gap-2" href="#" id="successWhatsAppLink" rel="noopener noreferrer" target="_blank">
+<span>Send Photos via WhatsApp</span>
+<svg class="w-4 h-4 text-green-400 fill-current" viewbox="0 0 24 24">
+<path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.588-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.288.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.2.662.591 1.221.774 1.394.86.174.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.144.39-.086s1.011.477 1.184.564.289.13.332.203c.044.072.044.419-.1.824z"></path>
+</svg>
+</a>
+<a class="w-full py-3.5 bg-white border border-framora-sand hover:bg-framora-sand/60 text-framora-charcoal text-xs uppercase tracking-widest font-bold rounded-full shadow-sm transition-all flex items-center justify-center gap-2" href="#" id="successInstagramLink" rel="noopener noreferrer" target="_blank">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<rect height="18" rx="5" ry="5" stroke-width="1.8" width="18" x="3" y="3"></rect>
+<path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" stroke-width="1.8"></path>
+<line stroke-linecap="round" stroke-width="1.8" x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+</svg>
+<span>Send Photos via Instagram</span>
+</a>
+<a class="w-full py-3.5 bg-white border border-framora-sand hover:bg-framora-sand/60 text-framora-charcoal text-xs uppercase tracking-widest font-bold rounded-full shadow-sm transition-all flex items-center justify-center gap-2" href="#" id="successEmailLink" rel="noopener noreferrer" target="_blank">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M3 8l9 6 9-6M4 5h16a1 1 0 011 1v12a1 1 0 01-1 1H4a1 1 0 01-1-1V6a1 1 0 011-1z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path>
+</svg>
+<span>Send Photos via Gmail</span>
+</a>
+<button class="w-full py-2.5 bg-transparent text-framora-charcoal/70 hover:text-framora-charcoal text-xs uppercase tracking-wider font-semibold rounded-full hover:bg-framora-sand transition-colors" id="successCloseBtn">
+            Back to Collections
+          </button>
+</div>
+</div>
+</div>
+</div>
+<!-- END: OrderSuccessModal -->
+<!-- BEGIN: FloatingWhatsAppWidget -->
+<aside aria-label="WhatsApp Quick Support">
+<a class="fixed bottom-6 right-6 z-40 p-3.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 flex items-center justify-center border-2 border-white/80" href="https://wa.me/923033332268?text=Hello%20Framora!%20I'd%20like%20to%20ask%20about%20your%20memory%20frames." rel="noopener noreferrer" target="_blank" title="Chat with Framora on WhatsApp">
+<svg class="w-6 h-6 fill-current" viewbox="0 0 24 24">
+<path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.588-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.288.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.2.662.591 1.221.774 1.394.86.174.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.144.39-.086s1.011.477 1.184.564.289.13.332.203c.044.072.044.419-.1.824z"></path>
+</svg>
+<span class="sr-only">Contact on WhatsApp</span>
+</a>
+</aside>
+<!-- END: FloatingWhatsAppWidget -->
+<!-- BEGIN: ToastNotification -->
+<div class="fixed bottom-6 left-6 z-50 bg-framora-charcoal text-white px-5 py-3 rounded-xl shadow-2xl text-xs font-medium flex items-center gap-3 transition-transform duration-300 transform translate-y-32 pointer-events-none border border-framora-gold/30" id="toastNotification">
+<span class="text-framora-gold font-bold">✦</span>
+<span id="toastMessage">Item added to cart</span>
+</div>
+<!-- END: ToastNotification -->
+<!-- BEGIN: EmailJS SDK (sends the automatic order-confirmation email to the customer) -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<!-- END: EmailJS SDK -->
+<!-- BEGIN: Firebase SDK (powers shop-wide Reviews & Questions, visible to every visitor) -->
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<!-- END: Firebase SDK -->
+<!-- BEGIN: ApplicationDataAndCoreLogic -->
+<script data-purpose="app-core">
+    // Constants
+    const WHATSAPP_NUMBER = "923033332268"; // your WhatsApp number (already correct)
+    const INSTAGRAM_URL = "https://instagram.com/framoraframmes"; // your Instagram handle
+    const INSTAGRAM_DM_URL = "https://ig.me/m/framoraframmes"; // opens Instagram Direct Message straight to your inbox
+    // TODO: replace with the Gmail address you actually want customers sending order photos to
+    const SHOP_EMAIL = "framoraframmes@gmail.com";
+    const BRAND_LOGO = "https://lh3.googleusercontent.com/aida-public/AB6AXuAhq5rA1j75bYFoKiM7coPjBdaf7eOcxL38PUDeF5ulCKBPhnub8O4xOmnYia85XBLjMrZJxdVwePAPGd53lb6QvEU8xxCjqav4p41bwVkpieaqNQzwycDchmUcIxKoh0fwDH174L5Q9JZ05MADVNdrVfCWAR43J0JkujjiS9q3pWoRQu-Pe-BhEb22LEj1uNmQgdmyRcIaDTqPOAKU6xeDQl8YwemzkDu1nYll7wNs2DHt353RPA_KrCRXR9wU8KBqCQ";
+
+    // ===================================================================
+    // EmailJS Configuration — REPLACE THESE 3 VALUES to activate the
+    // automatic "order confirmation" email sent to the CUSTOMER.
+    // Get them free at https://www.emailjs.com after connecting your inbox:
+    //   1. EMAILJS_PUBLIC_KEY  -> Account > General > Public Key
+    //   2. EMAILJS_SERVICE_ID  -> Email Services > (your connected Gmail/Outlook) > Service ID
+    //   3. EMAILJS_TEMPLATE_ID -> Email Templates > (your template) > Template ID
+    // Until you replace these, the site still works perfectly — it just
+    // skips the email step and relies on the WhatsApp order message.
+    // ===================================================================
+    const EMAILJS_PUBLIC_KEY  = "f2O3dEr0XLcofr3kd";
+    const EMAILJS_SERVICE_ID  = "service_mlo5q25";
+    const EMAILJS_TEMPLATE_ID = "template_y5kxb0l";
+
+    // Initialize EmailJS only once real keys are in place
+    if (typeof emailjs !== "undefined" && EMAILJS_PUBLIC_KEY.indexOf("REPLACE_") === -1) {
+      emailjs.init(EMAILJS_PUBLIC_KEY);
+    }
+
+    // ===================================================================
+    // Firebase Configuration — REPLACE THESE 6 VALUES to make Reviews &
+    // Questions visible to EVERY visitor (not just the device that wrote
+    // them). It's free. Steps:
+    //   1. Go to https://console.firebase.google.com -> "Add project"
+    //      (the free "Spark" plan is plenty for this).
+    //   2. Left menu -> Build -> Firestore Database -> "Create database"
+    //      -> start in test mode (or paste the rules from README.md).
+    //   3. Click the gear icon -> Project settings -> scroll to "Your apps"
+    //      -> click the </> (Web) icon -> register an app (nickname only).
+    //   4. Firebase shows you a `firebaseConfig` object — copy its 6
+    //      values into FIREBASE_CONFIG below.
+    // Until you replace these, reviews/questions still work, but each
+    // visitor only sees the ones saved on their own device.
+    // ===================================================================
+    const FIREBASE_CONFIG = {
+      apiKey: "AIzaSyDCIm_2OTe3S1d9cPNsSihhOckJz9uX7i0",
+      authDomain: "framora-55f39.firebaseapp.com",
+      projectId: "framora-55f39",
+      storageBucket: "framora-55f39.firebasestorage.app",
+      messagingSenderId: "427199823128",
+      appId: "1:427199823128:web:7bb9bdcffb4f6d85e5b26d"
+    };
+
+    const FIREBASE_READY = FIREBASE_CONFIG.apiKey.indexOf("REPLACE_") === -1;
+    let firestoreDB = null;
+    let firebaseAuth = null;
+    let firebaseUser = null;
+    let firebaseAuthReady = Promise.resolve(null);
+    if (FIREBASE_READY && typeof firebase !== "undefined") {
+      try {
+        firebase.initializeApp(FIREBASE_CONFIG);
+        firestoreDB = firebase.firestore();
+        if (typeof firebase.auth === "function") {
+          firebaseAuth = firebase.auth();
+          firebaseAuthReady = firebaseAuth.signInAnonymously().then(cred => {
+            firebaseUser = cred.user;
+            return firebaseUser;
+          }).catch(e => {
+            console.error("Anonymous Firebase sign-in failed. Reviews will remain readable, but secure self-delete requires sign-in.", e);
+            return null;
+          });
+        }
+      } catch (e) {
+        console.error("Firebase init failed — falling back to on-device storage.", e);
+      }
+    }
+
+    // Products Database
+    // NOTE: "image" points to files inside the /images folder next to this HTML file.
+    // Replace any path below with your own photo filename to swap the design shown.
+    const PRODUCTS = [
+      // ---- Wedding / Couple Collection (11 real designs from your samples) ----
+      {
+        id: "prod-wedding-01",
+        name: "Lawn Nikkah Triptych",
+        category: "wedding",
+        categoryLabel: "Wedding",
+        subtitle: "Two people. One beautiful beginning.",
+        description: "A three-photo vertical layout with elegant Urdu calligraphy overlay, perfect for nikkah and outdoor portrait sessions.",
+        price: 700,
+        badge: "Most Cherished",
+        image: "images/couple-01-lawn-nikkah.jpg"
+      },
+      {
+        id: "prod-wedding-02",
+        name: "Mehendi Hands Triptych",
+        category: "wedding",
+        categoryLabel: "Wedding",
+        subtitle: "Every ring, every ritual, remembered.",
+        description: "A close-up storytelling layout featuring ring exchange, baraat lights, and family moments with Urdu script.",
+        price: 700,
+        badge: "Bestseller",
+        image: "images/couple-02-mehendi-hands.jpg"
+      },
+      {
+        id: "prod-wedding-03",
+        name: "Sepia Mosaic Keepsake",
+        category: "wedding",
+        categoryLabel: "Wedding",
+        subtitle: "In this world and the next.",
+        description: "A vintage six-panel sepia mosaic with Arabic calligraphy centerpiece — a timeless archival finish.",
+        price: 700,
+        badge: "Signature",
+        image: "images/couple-03-sepia-mosaic.jpg"
+      },
+      {
+        id: "prod-wedding-04",
+        name: "Engagement Duo (B&W)",
+        category: "wedding",
+        categoryLabel: "Wedding",
+        subtitle: "A new chapter begins.",
+        description: "Bold black-and-white typographic frame pairing two dance-twirl engagement portraits with a heartfelt caption.",
+        price: 700,
+        badge: "Editorial",
+        image: "images/couple-04-engagement-bw.jpg"
+      },
+      {
+        id: "prod-wedding-05",
+        name: "Happy Wedding Grid",
+        category: "wedding",
+        categoryLabel: "Wedding",
+        subtitle: "Save the date, forever.",
+        description: "A six-photo grid with save-the-date detailing, studio credit line, and a soft handwritten 'Happy Wedding' script.",
+        price: 700,
+        badge: "Studio Style",
+        image: "images/couple-05-happy-wedding.jpg"
+      },
+      {
+        id: "prod-wedding-06",
+        name: "Kodak Film Strip",
+        category: "wedding",
+        categoryLabel: "Wedding",
+        subtitle: "Frame by frame, forever yours.",
+        description: "A vertical film-negative strip design with sepia tones, sideways couple name and date lettering.",
+        price: 700,
+        badge: "Vintage",
+        image: "images/couple-07-film-strip.jpg"
+      },
+      {
+        id: "prod-wedding-07",
+        name: "The Wedding Of — Modern Banner",
+        category: "wedding",
+        categoryLabel: "Wedding",
+        subtitle: "Two names, one story.",
+        description: "A garden-photoshoot layout with a bold center banner for both names and the wedding date.",
+        price: 700,
+        badge: "Modern",
+        image: "images/couple-08-modern-ben-sherina.jpg"
+      },
+      // ---- Best Friend / Anniversary / Couple-casual samples ----
+      {
+        id: "prod-bestfriend",
+        name: "LOVE Typographic Collage",
+        category: "best-friend",
+        categoryLabel: "Best Friend",
+        subtitle: "Some friendships deserve a place on the wall.",
+        description: "Celebrate the laughs, trips, and memories you share with your chosen family, arranged around bold LOVE lettering.",
+        price: 700,
+        badge: "Bestseller",
+        image: "images/couple-09-love-collage.jpg"
+      },
+      {
+        id: "prod-friend-01",
+        name: "Polaroid Paperclip Collage",
+        category: "best-friend",
+        categoryLabel: "Best Friend",
+        subtitle: "Every night out, pinned in place.",
+        description: "A layered polaroid-style collage of group hangouts and nights out, clipped together like a real scrapbook page.",
+        price: 700,
+        badge: "Group Favorite",
+        image: "images/friend-01-polaroid-paperclip-collage.jpg"
+      },
+      {
+        id: "prod-friend-02",
+        name: "We Keep This — Masked Memories",
+        category: "best-friend",
+        categoryLabel: "Best Friend",
+        subtitle: "Love kept in a photograph.",
+        description: "A moody six-photo grid capturing candid nighttime hangouts, with a bold 'We Keep This' caption.",
+        price: 700,
+        badge: "Candid",
+        image: "images/friend-02-we-keep-this-masks-collage.jpg"
+      },
+      {
+        id: "prod-friend-03",
+        name: "Heart-Shaped Home Collage",
+        category: "best-friend",
+        categoryLabel: "Best Friend",
+        subtitle: "A place where you are always welcome.",
+        description: "A heart-shaped arrangement of black-and-white memories with a heartfelt 'home' definition caption.",
+        price: 700,
+        badge: "Sentimental",
+        image: "images/friend-03-heart-shape-home-collage.jpg"
+      },
+      {
+        id: "prod-friend-04",
+        name: "Big Squad Grid Collage",
+        category: "best-friend",
+        categoryLabel: "Best Friend",
+        subtitle: "Every friend, every memory, one frame.",
+        description: "A dense, full-coverage photo grid celebrating an entire friend group's memories across many moments.",
+        price: 700,
+        badge: "Group Favorite",
+        image: "images/friend-04-big-grid-collage.jpg"
+      },
+      {
+        id: "prod-friend-05",
+        name: "Torn Paper Hearts Collage",
+        category: "best-friend",
+        categoryLabel: "Best Friend",
+        subtitle: "Little doodles, big memories.",
+        description: "A playful torn-paper style collage decorated with hand-drawn hearts, stars, and stickers around candid friend photos.",
+        price: 700,
+        badge: "Playful",
+        image: "images/friend-05-torn-paper-hearts-collage.jpg"
+      },
+      {
+        id: "prod-friend-06",
+        name: "Torn Paper Disco Ball Collage",
+        category: "best-friend",
+        categoryLabel: "Best Friend",
+        subtitle: "City nights, disco lights.",
+        description: "A torn-paper collage of city adventures and night-out memories, decorated with disco ball and ribbon doodles.",
+        price: 700,
+        badge: "Playful",
+        image: "images/friend-06-torn-paper-discoball-collage.jpg"
+      },
+      {
+        id: "prod-friend-07",
+        name: "Desi Friends — I Love You Collage",
+        category: "best-friend",
+        categoryLabel: "Best Friend",
+        subtitle: "Traditions, together.",
+        description: "A warm collage of friends in traditional outfits, layered with heartfelt notes and vintage-style photo frames.",
+        price: 700,
+        badge: "Heartfelt",
+        image: "images/friend-07-desi-friends-i-love-you-collage.jpg"
+      },
+      {
+        id: "prod-friend-08",
+        name: "Korean School Camera Collage",
+        category: "best-friend",
+        categoryLabel: "Best Friend",
+        subtitle: "School days, captured forever.",
+        description: "A nostalgic collage layout featuring school group photos, styled like a vintage digital camera viewfinder.",
+        price: 700,
+        badge: "Nostalgic",
+        image: "images/friend-08-korean-school-camera-collage.jpg"
+      },
+      {
+        id: "prod-anniversary",
+        name: "Anniversary Photo-Strip Note",
+        category: "someone-special",
+        categoryLabel: "Someone Special",
+        subtitle: "My safe place, my favorite person.",
+        description: "A photo-booth strip layout with a heartfelt handwritten anniversary note, layered on a moody background collage.",
+        price: 700,
+        badge: "Signature",
+        image: "images/couple-06-anniversary-note.jpg"
+      },
+      {
+        id: "prod-dramavibe",
+        name: "Golden Hour Drama Vibe",
+        category: "someone-special",
+        categoryLabel: "Someone Special",
+        subtitle: "A little cinematic, a little us.",
+        description: "A cherry-blossom, golden-hour four-panel layout with a 'now playing' song sticker overlay.",
+        price: 700,
+        badge: "Aesthetic",
+        image: "images/couple-10-kdrama-vibe.jpg"
+      },
+      // ---- Birthday Collection (7 real designs) ----
+      {
+        id: "prod-bday-01",
+        name: "August Calendar Birthday Frame",
+        category: "birthday",
+        categoryLabel: "Birthday",
+        subtitle: "One month, one milestone.",
+        description: "A moody calendar-style birthday frame highlighting the special date, paired with a portrait and candid photo strip.",
+        price: 700,
+        badge: "Gift Choice",
+        image: "images/birthday-01-august-calendar-boy.jpg"
+      },
+      {
+        id: "prod-bday-02",
+        name: "Friends Forever Calendar Frame",
+        category: "birthday",
+        categoryLabel: "Birthday",
+        subtitle: "Thank you for being a friend I can count on.",
+        description: "A festive calendar-style layout marking a friend's birthday, with a photo grid and an infinity 'friends forever' badge.",
+        price: 700,
+        badge: "Bestseller",
+        image: "images/birthday-02-february-calendar-friends.jpg"
+      },
+      {
+        id: "prod-bday-03",
+        name: "Personalized Message Calendar Frame",
+        category: "birthday",
+        categoryLabel: "Birthday",
+        subtitle: "Wishing you a day filled with love and laughter.",
+        description: "A calendar-style birthday frame with a personalized heartfelt message and a photo grid of favorite moments.",
+        price: 700,
+        badge: "Personalized",
+        image: "images/birthday-03-july-calendar-waleed.jpg"
+      },
+      {
+        id: "prod-bday-04",
+        name: "B&W Cutout Collage Frame",
+        category: "birthday",
+        categoryLabel: "Birthday",
+        subtitle: "A lifetime of memories, one cutout away.",
+        description: "A striking black-and-white photo-grid background with a full-color cutout portrait layered on top.",
+        price: 700,
+        badge: "Signature Style",
+        image: "images/birthday-04-bw-collage-girl.jpg"
+      },
+      {
+        id: "prod-bday-05",
+        name: "Torn Paper Birthday Collage",
+        category: "birthday",
+        categoryLabel: "Birthday",
+        subtitle: "Cake, candles, and cherished friends.",
+        description: "A playful torn-paper style collage decorated with hand-drawn hearts and a birthday cake sticker.",
+        price: 700,
+        badge: "Playful",
+        image: "images/birthday-05-torn-paper-friends.jpg"
+      },
+      {
+        id: "prod-bday-06",
+        name: "Heartfelt Note Calendar Frame",
+        category: "birthday",
+        categoryLabel: "Birthday",
+        subtitle: "I love you so much, my Angry Bird.",
+        description: "A calendar-style frame with a long personalized heartfelt letter and a scattered photo grid of best-friend memories.",
+        price: 700,
+        badge: "Personalized",
+        image: "images/birthday-06-baishakh-calendar-maharani.jpg"
+      },
+      {
+        id: "prod-bday-07",
+        name: "Inspirational Quote Calendar Frame",
+        category: "birthday",
+        categoryLabel: "Birthday",
+        subtitle: "Don't sacrifice yourself too much.",
+        description: "A calendar-style birthday frame pairing a meaningful quote with a photo grid and a cute birthday cake illustration.",
+        price: 700,
+        badge: "Meaningful",
+        image: "images/birthday-07-august-calendar-girl.jpg"
+      },
+      // ---- New Categories ----
+      // ---- Car Lovers Collection (5 real designs) ----
+      {
+        id: "prod-car-01",
+        name: "BMW Black Smoke Edition",
+        category: "car-lovers",
+        categoryLabel: "For Car Lovers",
+        subtitle: "Bold. Black. BMW.",
+        description: "A dramatic side-profile shot of a blacked-out BMW wrapped in red smoke, with a bold BMW wordmark backdrop.",
+        price: 700,
+        badge: "Petrolhead Pick",
+        image: "images/car-01-bmw-black-red-smoke.jpg"
+      },
+      {
+        id: "prod-car-02",
+        name: "Porsche 911 x Spiderman Edition",
+        category: "car-lovers",
+        categoryLabel: "For Car Lovers",
+        subtitle: "Aggressive & sporty, web-slung style.",
+        description: "A stylized Porsche 911 design with a spider-web wrap motif and Spiderman artwork, engineered to thrill.",
+        price: 700,
+        badge: "Fan Crossover",
+        image: "images/car-02-porsche-spiderman-edition.jpg"
+      },
+      {
+        id: "prod-car-03",
+        name: "Scuderia Ferrari SF-25 Blueprint",
+        category: "car-lovers",
+        categoryLabel: "For Car Lovers",
+        subtitle: "Engineering meets racing legacy.",
+        description: "A detailed technical blueprint-style poster of the Ferrari SF-25 F1 car, complete with aerodynamic maps and specs.",
+        price: 700,
+        badge: "F1 Collector",
+        image: "images/car-03-ferrari-sf25-blueprint.jpg"
+      },
+      {
+        id: "prod-car-04",
+        name: "Land Rover Defender Pop Art",
+        category: "car-lovers",
+        categoryLabel: "For Car Lovers",
+        subtitle: "Off-road, on-trend.",
+        description: "A bold pop-art collage poster featuring the Land Rover Defender against a bright graphic typography backdrop.",
+        price: 700,
+        badge: "Off-Road Style",
+        image: "images/car-04-land-rover-defender-pop-art.jpg"
+      },
+      {
+        id: "prod-car-05",
+        name: "Ferrari F1 Marlboro Vintage",
+        category: "car-lovers",
+        categoryLabel: "For Car Lovers",
+        subtitle: "A tribute to racing heritage.",
+        description: "A vintage-inspired Ferrari Formula 1 poster with a bold retro racing typography treatment.",
+        price: 700,
+        badge: "Vintage Racing",
+        image: "images/car-05-ferrari-f1-marlboro-vintage.jpg"
+      },
+      {
+        id: "prod-car-06",
+        name: "BMW M-Performance Triptych Set",
+        category: "car-lovers",
+        categoryLabel: "For Car Lovers",
+        subtitle: "One car, three frames, full impact.",
+        description: "A dramatic 3-piece frame set showing the rear of a blacked-out BMW M-Performance car, bathed in red smoke and light — displayed together as a striking wall triptych.",
+        price: 1800,
+        badge: "3-Piece Set",
+        image: "images/car-06-bmw-triptych-set.jpg"
+      },
+      {
+        id: "prod-car-07",
+        name: "BMW x Porsche Triptych Set",
+        category: "car-lovers",
+        categoryLabel: "For Car Lovers",
+        subtitle: "Two legends, one wall.",
+        description: "A bold 3-piece black-and-white frame set pairing a Porsche silhouette with BMW branding — a striking minimalist automotive wall statement.",
+        price: 1800,
+        badge: "3-Piece Set",
+        image: "images/car-07-bmw-porsche-triptych-set.jpg"
+      },
+      {
+        id: "prod-car-08",
+        name: "Ferrari F1 Triptych Set",
+        category: "car-lovers",
+        categoryLabel: "For Car Lovers",
+        subtitle: "Racing heritage, three frames wide.",
+        description: "A 3-piece frame set of the Ferrari Formula 1 car split across panels, with bold FERRARI lettering and sponsor livery detail.",
+        price: 1800,
+        badge: "3-Piece Set",
+        image: "images/car-08-ferrari-triptych-set.jpg"
+      },
+      // ---- Anime & Cartoon Collection (your 20 real designs) ----
+      {
+        id: "prod-anime-01",
+        name: "Gear 5 Luffy Manga Collage",
+        category: "anime-cartoon",
+        categoryLabel: "Anime & Cartoon",
+        subtitle: "One Piece — full power, full frame.",
+        description: "A dynamic manga-panel collage background with a bold Gear 5 Luffy illustration and the iconic ONE PIECE logo.",
+        price: 700,
+        badge: "Fan Favorite",
+        image: "images/anime-01-one-piece-gear5-luffy-collage.jpg"
+      },
+      {
+        id: "prod-anime-02",
+        name: "Demon Slayer Sliced Tanjiro",
+        category: "anime-cartoon",
+        categoryLabel: "Anime & Cartoon",
+        subtitle: "Water breathing, sliced style.",
+        description: "A bold sliced-panel design of Tanjiro mid-slash, layered over water and fire effects with kanji lettering.",
+        price: 700,
+        badge: "Bestseller",
+        image: "images/anime-02-demon-slayer-tanjiro-sliced.jpg"
+      },
+      {
+        id: "prod-anime-03",
+        name: "Zenitsu Lightning Portrait",
+        category: "anime-cartoon",
+        categoryLabel: "Anime & Cartoon",
+        subtitle: "Thunder breathing, unleashed.",
+        description: "A cinematic lightning-charged illustration of Zenitsu with Japanese calligraphy and his name in kanji.",
+        price: 700,
+        badge: "Signature",
+        image: "images/anime-03-zenitsu-lightning-thunder.jpg"
+      },
+      {
+        id: "prod-anime-04",
+        name: "Zenitsu Thunder Breath Sliced",
+        category: "anime-cartoon",
+        categoryLabel: "Anime & Cartoon",
+        subtitle: "One flash. One strike.",
+        description: "A bold sliced-typography poster featuring Zenitsu's Thunder Breathing technique in gold and black.",
+        price: 700,
+        badge: "Editorial",
+        image: "images/anime-04-zenitsu-thunder-breath-sliced.jpg"
+      },
+      {
+        id: "prod-anime-05",
+        name: "Inosuke Manga Panel Art",
+        category: "anime-cartoon",
+        categoryLabel: "Anime & Cartoon",
+        subtitle: "Beast breathing, raw energy.",
+        description: "A striking manga-panel background piece featuring Inosuke's boar mask and dual swords in motion.",
+        price: 700,
+        badge: "Bold",
+        image: "images/anime-05-inosuke-manga-panel.jpg"
+      },
+      {
+        id: "prod-anime-06",
+        name: "Inosuke Beast Breath Sliced",
+        category: "anime-cartoon",
+        categoryLabel: "Anime & Cartoon",
+        subtitle: "Fang. Rush. Beast.",
+        description: "A sliced-typography poster of Inosuke mid-attack, in cool blue and monochrome tones.",
+        price: 700,
+        badge: "Editorial",
+        image: "images/anime-06-inosuke-beast-breath-sliced.jpg"
+      },
+      {
+        id: "prod-anime-07",
+        name: "Zenitsu Portrait — Gold",
+        category: "anime-cartoon",
+        categoryLabel: "Anime & Cartoon",
+        subtitle: "A quiet moment before the storm.",
+        description: "A minimalist gold-toned portrait of Zenitsu Agatsuma with his name in bold typography.",
+        price: 700,
+        badge: "Minimalist",
+        image: "images/anime-07-zenitsu-portrait-gold.jpg"
+      },
+      {
+        id: "prod-anime-08",
+        name: "Torn Reveal — Mystery Eyes",
+        category: "anime-cartoon",
+        categoryLabel: "Anime & Cartoon",
+        subtitle: "Torn paper. Hidden power.",
+        description: "A dramatic torn-paper effect revealing a close-up of piercing green eyes against a manga panel backdrop.",
+        price: 700,
+        badge: "Dramatic",
+        image: "images/anime-08-torn-eyes-green.jpg"
+      },
+      {
+        id: "prod-anime-09",
+        name: "Blank Bounty Poster — Marine",
+        category: "anime-cartoon",
+        categoryLabel: "Anime & Cartoon",
+        subtitle: "Your face. Your bounty.",
+        description: "A customizable One Piece-style WANTED poster — add your own photo to the blank frame for a fun personalized gift.",
+        price: 700,
+        badge: "Customizable",
+        image: "images/anime-09-blank-wanted-marine.jpg"
+      },
+      {
+        id: "prod-anime-10",
+        name: "Gol D. Roger Wanted Poster",
+        category: "anime-cartoon",
+        categoryLabel: "Anime & Cartoon",
+        subtitle: "The Pirate King's bounty.",
+        description: "A vintage-style WANTED bounty poster featuring the Pirate King Gol D. Roger, complete with berry amount and Marine seal.",
+        price: 700,
+        badge: "Legend",
+        image: "images/anime-10-gol-d-roger-wanted.jpg"
+      },
+      {
+        id: "prod-anime-11",
+        name: "Goku Black — Torn Rivalry",
+        category: "anime-cartoon",
+        categoryLabel: "Anime & Cartoon",
+        subtitle: "Two forms. One fate.",
+        description: "A torn-paper reveal design contrasting Goku Black and Super Saiyan Rosé against a manga panel backdrop.",
+        price: 700,
+        badge: "Dragon Ball Fan",
+        image: "images/anime-11-goku-black-rose-torn.jpg"
+      },
+      {
+        id: "prod-anime-12",
+        name: "Red Luffy Manga Collage",
+        category: "anime-cartoon",
+        categoryLabel: "Anime & Cartoon",
+        subtitle: "Who will become the Pirate King?",
+        description: "A bold red-toned Luffy illustration layered over a full manga-panel collage background.",
+        price: 700,
+        badge: "Iconic",
+        image: "images/anime-12-luffy-red-manga-collage.jpg"
+      },
+      {
+        id: "prod-anime-13",
+        name: "Luffy Laughing — Wanted Poster",
+        category: "anime-cartoon",
+        categoryLabel: "Anime & Cartoon",
+        subtitle: "3,000,000,000 berries of joy.",
+        description: "A joyful close-up WANTED poster of Luffy laughing, styled in classic sepia bounty-poster tones.",
+        price: 700,
+        badge: "Fan Favorite",
+        image: "images/anime-13-luffy-laughing-wanted.jpg"
+      },
+      {
+        id: "prod-anime-14",
+        name: "Mugiwara no Luffy — Sliced Red",
+        category: "anime-cartoon",
+        categoryLabel: "Anime & Cartoon",
+        subtitle: "One Piece. One legend.",
+        description: "A bold sliced-typography design featuring Luffy's determined gaze layered over repeated red lettering.",
+        price: 700,
+        badge: "Bold",
+        image: "images/anime-14-luffy-red-sliced-mugiwara.jpg"
+      },
+      {
+        id: "prod-anime-15",
+        name: "Inosuke Purple Dual Swords",
+        category: "anime-cartoon",
+        categoryLabel: "Anime & Cartoon",
+        subtitle: "Under the paper moon.",
+        description: "A stylized purple-toned illustration of Inosuke gripping his dual swords beneath a Japanese umbrella motif.",
+        price: 700,
+        badge: "Aesthetic",
+        image: "images/anime-15-inosuke-purple-swords.jpg"
+      },
+      {
+        id: "prod-anime-16",
+        name: "Blank Bounty Poster — World Authority",
+        category: "anime-cartoon",
+        categoryLabel: "Anime & Cartoon",
+        subtitle: "Issued in your name.",
+        description: "A weathered vintage WANTED poster template — perfect for adding your own photo and personalized bounty.",
+        price: 700,
+        badge: "Customizable",
+        image: "images/anime-16-blank-wanted-world-authority.jpg"
+      },
+      {
+        id: "prod-anime-17",
+        name: "Roronoa Zoro Wanted Poster",
+        category: "anime-cartoon",
+        categoryLabel: "Anime & Cartoon",
+        subtitle: "The Pirate Hunter's bounty.",
+        description: "A vintage bounty poster of Roronoa Zoro gripping his blade, complete with berry amount and Marine seal.",
+        price: 700,
+        badge: "Fan Favorite",
+        image: "images/anime-17-roronoa-zoro-wanted.jpg"
+      },
+      {
+        id: "prod-anime-18",
+        name: "Zoro Sliced — Green Edition",
+        category: "anime-cartoon",
+        categoryLabel: "Anime & Cartoon",
+        subtitle: "Three swords. One style.",
+        description: "A bold sliced-typography poster of Roronoa Zoro smirking, layered over repeated green lettering.",
+        price: 700,
+        badge: "Bold",
+        image: "images/anime-18-zoro-sliced-green.jpg"
+      },
+      {
+        id: "prod-anime-19",
+        name: "Muichiro — Mist Dragon",
+        category: "anime-cartoon",
+        categoryLabel: "Anime & Cartoon",
+        subtitle: "Calm as still water, sharp as mist.",
+        description: "A striking illustration of Muichiro Tokito with a swirling teal dragon and starry backdrop.",
+        price: 700,
+        badge: "Fan Favorite",
+        image: "images/anime-19-muichiro-dragon-blue.jpg"
+      },
+      {
+        id: "prod-anime-20",
+        name: "Demon Slayer Eyes Collage",
+        category: "anime-cartoon",
+        categoryLabel: "Anime & Cartoon",
+        subtitle: "Every hero, one gaze at a time.",
+        description: "A striking strip collage of the Demon Slayer cast's eyes, each paired with their signature elemental effect.",
+        price: 700,
+        badge: "Collector's Piece",
+        image: "images/anime-20-demon-slayer-eyes-collage.jpg"
+      },
+      {
+        id: "prod-anime-21",
+        name: "Demon Slayer Chibi Triptych Set",
+        category: "anime-cartoon",
+        categoryLabel: "Anime & Cartoon",
+        subtitle: "Three sisters, three frames.",
+        description: "A playful 3-piece chibi-style frame set featuring fan-art portraits of the Kamado sisters and Shinobu against a swirling pink backdrop.",
+        price: 1800,
+        badge: "3-Piece Set",
+        image: "images/anime-21-demon-slayer-chibi-triptych-set.jpg"
+      },
+      {
+        id: "prod-islamic",
+        name: "Islamic Edition Memory Frame",
+        category: "islamic",
+        categoryLabel: "Islamic",
+        subtitle: "Ayahs, duas, and spiritual reminders.",
+        description: "A calming design featuring Quranic verses, duas, or Islamic calligraphy in elegant Arabic script — ideal for home or gifting.",
+        price: 700,
+        badge: "Spiritual",
+        image: BRAND_LOGO
+      },
+      {
+        id: "prod-motivational",
+        name: "Motivational Edition Memory Frame",
+        category: "motivational",
+        categoryLabel: "Motivational",
+        subtitle: "Words that push you forward.",
+        description: "Bold typography featuring your favorite quote, mantra, or personal motto — a daily reminder framed with intention.",
+        price: 700,
+        badge: "Daily Reminder",
+        image: BRAND_LOGO
+      }
+    ];
+
+    // Collection Category Tiles — shown on the main page instead of all products at once.
+    // Only "Wedding" uses a real photo (from your couple collection) for now.
+    // Every other category shows the brand logo placeholder until you add real photos —
+    // just change "image" to a path like "images/your-photo.jpg" whenever you're ready.
+    const COLLECTIONS_TILES = [
+      { key: "wedding", label: "Weddings & Couples", subtitle: "Vows, nikkah & love stories", image: "images/couple-01-lawn-nikkah.jpg" },
+      { key: "someone-special", label: "Someone Special", subtitle: "For the person who means more", image: BRAND_LOGO },
+      { key: "best-friend", label: "Best Friends", subtitle: "Chosen family, cherished memories", image: "images/friend-01-polaroid-paperclip-collage.jpg" },
+      { key: "birthday", label: "Birthdays", subtitle: "Another year, another memory", image: "images/birthday-01-august-calendar-boy.jpg" },
+      { key: "car-lovers", label: "For Car Lovers", subtitle: "Rides, roads & road trips", image: "images/car-01-bmw-black-red-smoke.jpg" },
+      { key: "anime-cartoon", label: "Anime & Cartoon", subtitle: "Favorite characters, framed", image: "images/anime-01-one-piece-gear5-luffy-collage.jpg" },
+      { key: "islamic", label: "Islamic", subtitle: "Ayahs, duas & spiritual art", image: BRAND_LOGO },
+      { key: "motivational", label: "Motivational", subtitle: "Words that push you forward", image: BRAND_LOGO }
+    ];
+
+    // State Management
+    let cart = [];
+    let currentModalProduct = null;
+    let modalQuantity = 1;
+    let currentProductFilter = "all";
+
+    // Local Storage helpers
+    function loadCart() {
+      try {
+        const stored = localStorage.getItem("framora_cart");
+        if (stored) {
+          cart = JSON.parse(stored);
+        }
+      } catch (e) {
+        console.error("Could not load cart from localStorage", e);
+        cart = [];
+      }
+      updateCartUI();
+    }
+
+    function saveCart() {
+      try {
+        localStorage.setItem("framora_cart", JSON.stringify(cart));
+      } catch (e) {
+        console.error("Could not save cart to localStorage", e);
+      }
+      updateCartUI();
+    }
+
+    // Format Currency Helper
+    function formatPKR(amount) {
+      return `PKR ${amount.toLocaleString('en-PK')}`;
+    }
+
+    // ---------------------------------------------------------
+    // Favorites / Wishlist (heart icon on each product image)
+    // Stored per-device in localStorage — no login required.
+    // ---------------------------------------------------------
+    let wishlist = [];
+    function loadWishlist() {
+      try {
+        wishlist = JSON.parse(localStorage.getItem("framora_wishlist")) || [];
+      } catch (e) {
+        wishlist = [];
+      }
+      updateFavoritesBadge();
+    }
+    function saveWishlist() {
+      try { localStorage.setItem("framora_wishlist", JSON.stringify(wishlist)); }
+      catch (e) { console.error("Could not save favorites", e); }
+      updateFavoritesBadge();
+    }
+    function isFavorite(productId) {
+      return wishlist.includes(productId);
+    }
+    function toggleFavorite(productId) {
+      const idx = wishlist.indexOf(productId);
+      const product = PRODUCTS.find(p => p.id === productId);
+      if (idx > -1) {
+        wishlist.splice(idx, 1);
+        showToast(`Removed "${product ? product.name : 'item'}" from favorites`);
+      } else {
+        wishlist.push(productId);
+        showToast(`Added "${product ? product.name : 'item'}" to favorites ♥`);
+      }
+      saveWishlist();
+      renderProducts(currentProductFilter);
+    }
+    function updateFavoritesBadge() {
+      const badge = document.getElementById("favoritesCountBadge");
+      if (badge) badge.textContent = `(${wishlist.length})`;
+    }
+
+    // ---------------------------------------------------------
+    // Email Newsletter Subscription
+    // Saves the visitor's Gmail/email to Firestore (shop-wide, if
+    // configured above) or to this device's localStorage as a fallback,
+    // so you can later email your subscriber list about new designs.
+    // ---------------------------------------------------------
+    function loadLocalSubscribers() {
+      try { return JSON.parse(localStorage.getItem("framora_subscribers")) || []; }
+      catch (e) { return []; }
+    }
+    function saveLocalSubscriber(email) {
+      const list = loadLocalSubscribers();
+      if (!list.includes(email)) list.push(email);
+      try { localStorage.setItem("framora_subscribers", JSON.stringify(list)); }
+      catch (e) { console.error("Could not save subscriber", e); }
+    }
+    async function subscribeNewsletter(email) {
+      const normalized = email.toLowerCase().trim();
+      if (!normalized) return false;
+      let cloudSaved = false;
+      if (FIREBASE_READY && firestoreDB) {
+        try {
+          const existing = await firestoreDB.collection("subscribers").where("email", "==", normalized).limit(1).get();
+          if (existing.empty) {
+            await firestoreDB.collection("subscribers").add({
+              email: normalized,
+              createdAt: firebase.firestore.FieldValue.serverTimestamp()
+            });
+          }
+          cloudSaved = true;
+        } catch (e) {
+          console.error("Could not save subscriber to Firestore", e);
+        }
+      }
+      saveLocalSubscriber(normalized);
+      return cloudSaved || true;
+    }
+
+    // ---------------------------------------------------------
+    // Reviews & Questions
+    // ---------------------------------------------------------
+    // In-memory caches — populated either from Firestore (shared, live,
+    // visible to every visitor) or from this device's localStorage
+    // (fallback, only used until FIREBASE_CONFIG above is filled in).
+    let reviewsCache = {};   // { [productId]: [ {name, rating, text}, ... ] }
+    let questionsCache = {}; // { [productId]: [ {name, text, answer}, ... ] }
+
+    function loadLocalReviews() {
+      try { return JSON.parse(localStorage.getItem("framora_user_reviews")) || {}; }
+      catch (e) { return {}; }
+    }
+    function saveLocalReviews(data) {
+      try { localStorage.setItem("framora_user_reviews", JSON.stringify(data)); }
+      catch (e) { console.error("Could not save reviews", e); }
+    }
+    // Tracks which review IDs were written from THIS device/browser, so we
+    // can show a Delete button only on the customer's own reviews (there is
+    // no login system, so this is the only way to know "whose" review it is).
+    function getMyReviewIds() {
+      try { return JSON.parse(localStorage.getItem("framora_my_review_ids")) || []; }
+      catch (e) { return []; }
+    }
+    function addMyReviewId(id) {
+      const ids = getMyReviewIds();
+      if (!ids.includes(id)) ids.push(id);
+      try { localStorage.setItem("framora_my_review_ids", JSON.stringify(ids)); }
+      catch (e) { console.error("Could not save review ownership", e); }
+    }
+    function removeMyReviewId(id) {
+      const ids = getMyReviewIds().filter(x => x !== id);
+      try { localStorage.setItem("framora_my_review_ids", JSON.stringify(ids)); }
+      catch (e) { console.error("Could not update review ownership", e); }
+    }
+    function loadLocalQuestions() {
+      try { return JSON.parse(localStorage.getItem("framora_user_questions")) || {}; }
+      catch (e) { return {}; }
+    }
+    function saveLocalQuestions(data) {
+      try { localStorage.setItem("framora_user_questions", JSON.stringify(data)); }
+      catch (e) { console.error("Could not save questions", e); }
+    }
+
+    // Starts a live connection to Firestore so every visitor's browser
+    // stays in sync automatically — no refresh needed. Called once on
+    // page load, only when FIREBASE_CONFIG has been filled in.
+    function initCloudSync() {
+      if (!FIREBASE_READY || !firestoreDB) return;
+
+      firestoreDB.collection("reviews").orderBy("createdAt", "desc")
+        .onSnapshot(snap => {
+          const grouped = {};
+          snap.forEach(doc => {
+            const r = doc.data();
+            if (!grouped[r.productId]) grouped[r.productId] = [];
+            grouped[r.productId].push({ id: doc.id, name: r.name, rating: r.rating, text: r.text, userId: r.userId || null });
+          });
+          reviewsCache = grouped;
+          refreshVisibleReviewsUI();
+        }, err => console.error("Reviews sync error", err));
+
+      firestoreDB.collection("questions").orderBy("createdAt", "desc")
+        .onSnapshot(snap => {
+          const grouped = {};
+          snap.forEach(doc => {
+            const q = doc.data();
+            if (!grouped[q.productId]) grouped[q.productId] = [];
+            grouped[q.productId].push({ id: doc.id, name: q.name, text: q.text, answer: q.answer || null });
+          });
+          questionsCache = grouped;
+          refreshVisibleQuestionsUI();
+        }, err => console.error("Questions sync error", err));
+    }
+
+    // Re-renders whatever is currently on screen after new cloud data
+    // arrives: the open product modal (if any) and the product grid
+    // (star counts on cards).
+    function refreshVisibleReviewsUI() {
+      if (currentModalProduct) renderReviewsList(currentModalProduct);
+      renderProducts(currentProductFilter);
+      if (!document.getElementById("allReviewsModal")?.classList.contains("hidden")) {
+        renderAllReviews();
+      }
+    }
+    function refreshVisibleQuestionsUI() {
+      if (currentModalProduct) renderQuestionsList(currentModalProduct);
+    }
+
+    function getAllReviews(product) {
+      if (FIREBASE_READY) return reviewsCache[product.id] || [];
+      const local = loadLocalReviews();
+      return local[product.id] || [];
+    }
+    function getAllQuestions(product) {
+      if (FIREBASE_READY) return questionsCache[product.id] || [];
+      const local = loadLocalQuestions();
+      return local[product.id] || [];
+    }
+
+    function addReview(productId, review, onDone) {
+      if (FIREBASE_READY && firestoreDB) {
+        firebaseAuthReady.then(() => {
+          const userId = firebaseUser?.uid || firebaseAuth?.currentUser?.uid;
+          if (!userId) {
+            const data = loadLocalReviews();
+            if (!data[productId]) data[productId] = [];
+            const newId = `user-${Date.now()}`;
+            data[productId].unshift({ id: newId, name: review.name, rating: review.rating, text: review.text });
+            saveLocalReviews(data);
+            addMyReviewId(newId);
+            onDone && onDone(true);
+            return null;
+          }
+          return firestoreDB.collection("reviews").add({
+            productId,
+            name: review.name,
+            rating: review.rating,
+            text: review.text,
+            userId,
+            createdAt: firebase.firestore.FieldValue.serverTimestamp()
+          });
+        }).then(docRef => { if (docRef?.id) addMyReviewId(docRef.id); if (docRef?.id) onDone && onDone(true); })
+          .catch(e => { console.error("Could not submit review", e); onDone && onDone(false); });
+        return;
+      }
+      // Local fallback — only visible on this device
+      const data = loadLocalReviews();
+      if (!data[productId]) data[productId] = [];
+      const newId = `user-${Date.now()}`;
+      data[productId].unshift({ id: newId, name: review.name, rating: review.rating, text: review.text });
+      saveLocalReviews(data);
+      addMyReviewId(newId);
+      onDone && onDone(true);
+    }
+
+    // Deletes a review the customer wrote themselves. Works for both the
+    // shop-wide (Firestore) and on-device (localStorage) storage modes.
+    function deleteReview(productId, reviewId, onDone) {
+      if (FIREBASE_READY && firestoreDB) {
+        firebaseAuthReady.then(() => {
+          const userId = firebaseUser?.uid || firebaseAuth?.currentUser?.uid;
+          if (!userId) throw new Error("Secure reviewer identity is not available.");
+          return firestoreDB.collection("reviews").doc(reviewId).delete();
+        })
+          .then(() => { removeMyReviewId(reviewId); onDone && onDone(true); })
+          .catch(e => { console.error("Could not delete review", e); onDone && onDone(false); });
+        return;
+      }
+      const data = loadLocalReviews();
+      if (data[productId]) {
+        data[productId] = data[productId].filter(r => r.id !== reviewId);
+        saveLocalReviews(data);
+      }
+      removeMyReviewId(reviewId);
+      onDone && onDone(true);
+    }
+
+    function deleteReviewClick(productId, reviewId) {
+      if (!confirm("Delete this review? This can't be undone.")) return;
+      deleteReview(productId, reviewId, (ok) => {
+        if (!ok) { alert("Could not delete review — please try again."); return; }
+        if (currentModalProduct && currentModalProduct.id === productId) {
+          renderReviewsList(currentModalProduct);
+        }
+        renderProducts(currentProductFilter);
+        if (!document.getElementById("allReviewsModal")?.classList.contains("hidden")) {
+          renderAllReviews();
+        }
+      });
+    }
+
+    function addQuestion(productId, question, onDone) {
+      if (FIREBASE_READY && firestoreDB) {
+        firestoreDB.collection("questions").add({
+          productId,
+          name: question.name,
+          text: question.text,
+          answer: null,
+          createdAt: firebase.firestore.FieldValue.serverTimestamp()
+        }).then(() => onDone && onDone(true))
+          .catch(e => { console.error("Could not submit question", e); onDone && onDone(false); });
+        return;
+      }
+      // Local fallback — only visible on this device
+      const data = loadLocalQuestions();
+      if (!data[productId]) data[productId] = [];
+      data[productId].unshift({ id: `user-${Date.now()}`, name: question.name, text: question.text, answer: null });
+      saveLocalQuestions(data);
+      onDone && onDone(true);
+    }
+
+    function getRatingSummary(product) {
+      const reviews = getAllReviews(product);
+      if (!reviews.length) return { avg: 0, count: 0 };
+      const sum = reviews.reduce((acc, r) => acc + r.rating, 0);
+      return { avg: sum / reviews.length, count: reviews.length };
+    }
+
+    function starSVG(filled, size) {
+      return `<svg class="${size} ${filled ? "text-framora-gold fill-current" : "text-framora-sand fill-current"}" viewBox="0 0 20 20"><path d="M10 1.5l2.6 5.3 5.9.9-4.3 4.1 1 5.9L10 14.9l-5.2 2.8 1-5.9-4.3-4.1 5.9-.9L10 1.5z"></path></svg>`;
+    }
+
+    function renderStarsHTML(rating, size = "w-3.5 h-3.5") {
+      let html = "";
+      for (let i = 1; i <= 5; i++) {
+        html += starSVG(rating >= i - 0.25, size);
+      }
+      return html;
+    }
+
+    function escapeHTML(str) {
+      const div = document.createElement("div");
+      div.textContent = str;
+      return div.innerHTML;
+    }
+
+    function renderReviewsList(product) {
+      const list = document.getElementById("reviewsList");
+      if (!list) return;
+      const reviews = getAllReviews(product);
+
+      if (!reviews.length) {
+        list.innerHTML = `<p class="text-xs text-framora-charcoal/50 italic">No reviews yet. Be the first to share your experience!</p>`;
+      } else {
+        const myIds = getMyReviewIds();
+        list.innerHTML = reviews.map(r => `
+          <div class="pb-4 border-b border-framora-sand/60 last:border-b-0">
+            <div class="flex items-center justify-between gap-2">
+              <span class="text-xs font-bold text-framora-charcoal">${escapeHTML(r.name)}</span>
+              <div class="flex items-center gap-0.5 shrink-0">${renderStarsHTML(r.rating)}</div>
+            </div>
+            <p class="text-xs text-framora-charcoal/70 mt-1.5 leading-relaxed">${escapeHTML(r.text)}</p>
+            ${(FIREBASE_READY ? (r.userId && (r.userId === (firebaseUser?.uid || firebaseAuth?.currentUser?.uid))) : myIds.includes(r.id)) ? `<button onclick="deleteReviewClick('${product.id}','${r.id}')" class="mt-1.5 text-[10px] font-semibold uppercase tracking-wider text-red-500/80 hover:text-red-600">Delete My Review</button>` : ""}
+          </div>
+        `).join("");
+      }
+
+      const summary = getRatingSummary(product);
+      const summaryBlock = document.getElementById("modalRatingSummary");
+      const avgEl = document.getElementById("modalAvgRating");
+      const starsEl = document.getElementById("modalAvgStars");
+      const countEl = document.getElementById("modalReviewCount");
+      const count2El = document.getElementById("modalReviewCount2");
+      if (summaryBlock) {
+        summaryBlock.classList.toggle("hidden", summary.count === 0);
+        summaryBlock.classList.toggle("flex", summary.count > 0);
+      }
+      if (avgEl) avgEl.textContent = summary.avg.toFixed(1);
+      if (starsEl) starsEl.innerHTML = renderStarsHTML(summary.avg, "w-4 h-4");
+      if (countEl) countEl.textContent = `(${summary.count})`;
+      if (count2El) count2El.textContent = summary.count;
+    }
+
+    // Shop-wide "All Reviews" panel — combines every product's reviews into
+    // one list so visitors (and you) can browse everything customers said.
+    function openAllReviewsModal() {
+      renderAllReviews();
+      document.getElementById("allReviewsModal")?.classList.remove("hidden");
+    }
+
+    function renderAllReviews() {
+      const list = document.getElementById("allReviewsList");
+      if (!list) return;
+      const myIds = getMyReviewIds();
+      let rows = [];
+      PRODUCTS.forEach(product => {
+        const reviews = getAllReviews(product);
+        reviews.forEach(r => rows.push({ product, r }));
+      });
+
+      if (!rows.length) {
+        list.innerHTML = `<p class="text-sm text-framora-charcoal/50 italic text-center py-8">No reviews yet across the shop. Be the first to leave one on any frame!</p>`;
+        return;
+      }
+
+      list.innerHTML = rows.map(({ product, r }) => `
+        <div class="pb-5 border-b border-framora-sand/60 last:border-b-0">
+          <div class="flex items-center justify-between gap-2">
+            <span class="text-xs font-bold text-framora-goldDark uppercase tracking-wider">${escapeHTML(product.name)}</span>
+            <div class="flex items-center gap-0.5 shrink-0">${renderStarsHTML(r.rating)}</div>
+          </div>
+          <p class="text-xs font-bold text-framora-charcoal mt-1">${escapeHTML(r.name)}</p>
+          <p class="text-xs text-framora-charcoal/70 mt-1 leading-relaxed">${escapeHTML(r.text)}</p>
+          ${(FIREBASE_READY ? (r.userId && (r.userId === (firebaseUser?.uid || firebaseAuth?.currentUser?.uid))) : myIds.includes(r.id)) ? `<button onclick="deleteReviewClick('${product.id}','${r.id}')" class="mt-1.5 text-[10px] font-semibold uppercase tracking-wider text-red-500/80 hover:text-red-600">Delete My Review</button>` : ""}
+        </div>
+      `).join("");
+    }
+
+    function renderQuestionsList(product) {
+      const list = document.getElementById("questionsList");
+      if (!list) return;
+      const questions = getAllQuestions(product);
+      const countEl = document.getElementById("modalQuestionCount");
+      if (countEl) countEl.textContent = `(${questions.length})`;
+
+      if (!questions.length) {
+        list.innerHTML = `<p class="text-xs text-framora-charcoal/50 italic">No questions yet. Ask us anything about this frame!</p>`;
+        return;
+      }
+
+      list.innerHTML = questions.map(q => `
+        <div class="pb-4 border-b border-framora-sand/60 last:border-b-0">
+          <p class="text-xs font-bold text-framora-charcoal">Q: ${escapeHTML(q.text)}</p>
+          <p class="text-[10px] text-framora-charcoal/50 mt-0.5">Asked by ${escapeHTML(q.name)}</p>
+          ${q.answer
+            ? `<p class="text-xs text-framora-charcoal/70 mt-2 pl-3 border-l-2 border-framora-gold/60"><span class="font-semibold text-framora-goldDark">Framora:</span> ${escapeHTML(q.answer)}</p>`
+            : `<p class="text-xs text-framora-charcoal/40 italic mt-2 pl-3 border-l-2 border-framora-sand">Awaiting a reply from our team — we'll answer soon!</p>`
+          }
+        </div>
+      `).join("");
+    }
+
+    let reviewFormRating = 5;
+    function renderStarPicker() {
+      const picker = document.getElementById("reviewStarPicker");
+      if (!picker) return;
+      picker.innerHTML = "";
+      for (let i = 1; i <= 5; i++) {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "p-0.5";
+        btn.setAttribute("aria-label", `Rate ${i} star${i > 1 ? "s" : ""}`);
+        btn.innerHTML = starSVG(i <= reviewFormRating, "w-5 h-5");
+        btn.addEventListener("click", () => {
+          reviewFormRating = i;
+          const input = document.getElementById("reviewRatingInput");
+          if (input) input.value = i;
+          renderStarPicker();
+        });
+        picker.appendChild(btn);
+      }
+    }
+
+    function showReviewsTab() {
+      document.getElementById("reviewsPanel")?.classList.remove("hidden");
+      document.getElementById("questionsPanel")?.classList.add("hidden");
+      document.getElementById("reviewsTabBtn")?.classList.add("border-framora-charcoal", "text-framora-charcoal");
+      document.getElementById("reviewsTabBtn")?.classList.remove("border-transparent", "text-framora-charcoal/40");
+      document.getElementById("questionsTabBtn")?.classList.remove("border-framora-charcoal", "text-framora-charcoal");
+      document.getElementById("questionsTabBtn")?.classList.add("border-transparent", "text-framora-charcoal/40");
+    }
+
+    function showQuestionsTab() {
+      document.getElementById("questionsPanel")?.classList.remove("hidden");
+      document.getElementById("reviewsPanel")?.classList.add("hidden");
+      document.getElementById("questionsTabBtn")?.classList.add("border-framora-charcoal", "text-framora-charcoal");
+      document.getElementById("questionsTabBtn")?.classList.remove("border-transparent", "text-framora-charcoal/40");
+      document.getElementById("reviewsTabBtn")?.classList.remove("border-framora-charcoal", "text-framora-charcoal");
+      document.getElementById("reviewsTabBtn")?.classList.add("border-transparent", "text-framora-charcoal/40");
+    }
+
+    function resetReviewsQAUI() {
+      showReviewsTab();
+      reviewFormRating = 5;
+      renderStarPicker();
+      document.getElementById("reviewForm")?.reset();
+      document.getElementById("reviewForm")?.classList.add("hidden");
+      document.getElementById("toggleReviewFormBtn")?.classList.remove("hidden");
+      document.getElementById("questionForm")?.reset();
+      document.getElementById("questionForm")?.classList.add("hidden");
+      document.getElementById("toggleQuestionFormBtn")?.classList.remove("hidden");
+    }
+
+    // ===================================================================
+    // Bundle Pricing Rule (applies across the WHOLE cart, any mix of frames):
+    //   1 frame  = PKR 700
+    //   2 frames = PKR 1300
+    //   3 frames = PKR 1800
+    //   Beyond 3 frames: no extra bundle discount — each additional frame
+    //   after the 3rd is simply added at the normal PKR 700 rate.
+    // To change these numbers later, just edit the values below.
+    // ===================================================================
+    function calculateBundleTotal(totalQty) {
+      if (totalQty <= 0) return 0;
+      if (totalQty === 1) return 700;
+      if (totalQty === 2) return 1300;
+      if (totalQty === 3) return 1800;
+      return 1800 + (totalQty - 3) * 700;
+    }
+
+    // Flat delivery charge applied once per order (only when the cart is non-empty)
+    const DELIVERY_CHARGE = 150;
+    function getDeliveryCharge(totalQty) {
+      return totalQty > 0 ? DELIVERY_CHARGE : 0;
+    }
+
+    // Toast helper
+    function showToast(message) {
+      const toast = document.getElementById("toastNotification");
+      const toastMsg = document.getElementById("toastMessage");
+      if (!toast || !toastMsg) return;
+      toastMsg.textContent = message;
+      toast.classList.remove("translate-y-32");
+      toast.classList.add("translate-y-0");
+
+      setTimeout(() => {
+        toast.classList.remove("translate-y-0");
+        toast.classList.add("translate-y-32");
+      }, 3000);
+    }
+
+    // Render Product Grid
+    // Render Collection Tiles (the main-page view: one card per occasion, not individual products)
+    function renderCollectionTiles() {
+      const grid = document.getElementById("collectionTilesGrid");
+      if (!grid) return;
+      grid.innerHTML = COLLECTIONS_TILES.map(tile => `
+        <button class="collection-tile group relative aspect-[3/4] rounded-xl overflow-hidden border border-framora-sand shadow-frame text-left" data-collection="${tile.key}" type="button">
+          <img src="${tile.image}" alt="${tile.label}" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+          <div class="absolute bottom-0 left-0 right-0 p-4">
+            <h3 class="font-serif text-lg sm:text-xl text-white font-semibold leading-tight">${tile.label}</h3>
+            <p class="text-[11px] sm:text-xs text-white/80 mt-1">${tile.subtitle}</p>
+          </div>
+        </button>
+      `).join('');
+
+      grid.querySelectorAll(".collection-tile").forEach(tile => {
+        tile.addEventListener("click", () => {
+          showCategoryProducts(tile.getAttribute("data-collection"));
+        });
+      });
+    }
+
+    // Switch from the collection-tiles view to the filtered product grid for one category
+    function showCategoryProducts(category) {
+      document.getElementById("collectionTilesGrid")?.classList.add("hidden");
+      document.getElementById("productsView")?.classList.remove("hidden");
+
+      // Sync the active filter tab to match the chosen category
+      document.querySelectorAll("#collectionFilters .filter-tab").forEach(btn => {
+        const isActive = btn.getAttribute("data-filter") === category;
+        btn.classList.toggle("bg-framora-charcoal", isActive);
+        btn.classList.toggle("text-white", isActive);
+        btn.classList.toggle("bg-framora-sand/70", !isActive);
+        btn.classList.toggle("text-framora-charcoal", !isActive);
+      });
+
+      renderProducts(category);
+      document.getElementById("collections")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
+    // Switch back from the product grid to the collection-tiles view
+    function showCollectionTiles() {
+      document.getElementById("productsView")?.classList.add("hidden");
+      document.getElementById("collectionTilesGrid")?.classList.remove("hidden");
+      document.getElementById("collections")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
+    function renderProducts(filter = "all") {
+      const grid = document.getElementById("productGrid");
+      if (!grid) return;
+
+      const filtered = filter === "favorites"
+        ? PRODUCTS.filter(p => wishlist.includes(p.id))
+        : filter === "all"
+          ? PRODUCTS
+          : PRODUCTS.filter(p => p.category === filter);
+
+      if (filter === "favorites" && filtered.length === 0) {
+        grid.innerHTML = `<div class="col-span-full text-center py-16">
+          <p class="font-serif text-xl text-framora-charcoal mb-1">No favorites yet</p>
+          <p class="text-xs text-framora-charcoal/60">Tap the heart on any frame to save it here.</p>
+        </div>`;
+        return;
+      }
+
+      grid.innerHTML = filtered.map(product => `
+        <article class="bg-white rounded-xl overflow-hidden border border-framora-sand/80 shadow-sm hover:shadow-subtle-card transition-all duration-300 flex flex-col justify-between group">
+          <!-- Card Image & Insignia Header -->
+          <div class="relative bg-framora-ivory p-6 flex flex-col items-center justify-center border-b border-framora-sand/40">
+            <div class="absolute top-3 left-3 bg-white/90 backdrop-blur-xs px-2.5 py-0.5 rounded-full text-[10px] font-bold text-framora-sage border border-framora-sand">
+              ${product.categoryLabel}
+            </div>
+            <div class="absolute top-3 right-3 bg-framora-charcoal text-framora-goldLight px-2.5 py-0.5 rounded-full text-[10px] font-semibold">
+              ${product.badge}
+            </div>
+
+            <!-- Frame Art Display -->
+            <div class="relative my-2 w-full aspect-[3/4] max-w-[180px] rounded-lg overflow-hidden border-2 border-framora-gold/50 shadow-frame group-hover:scale-[1.02] transition-transform duration-300">
+              <img src="${product.image || BRAND_LOGO}" alt="${product.name}" class="w-full h-full object-cover bg-framora-charcoal">
+              <!-- Favorite / Wishlist Heart -->
+              <button
+                onclick="event.stopPropagation(); toggleFavorite('${product.id}')"
+                class="absolute top-1.5 right-1.5 z-10 w-8 h-8 rounded-full bg-white/90 backdrop-blur-xs flex items-center justify-center shadow-sm hover:scale-110 transition-transform"
+                aria-label="${isFavorite(product.id) ? 'Remove from favorites' : 'Add to favorites'}"
+                data-fav-btn="${product.id}"
+              >
+                <svg class="w-4 h-4 ${isFavorite(product.id) ? 'text-red-500 fill-current' : 'text-framora-charcoal/40 fill-none'}" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path d="M12 21s-6.7-4.35-9.3-8.28C.86 9.94 1.6 6.4 4.6 5.06c2.1-.94 4.3-.2 5.6 1.53l1.8 2.4 1.8-2.4c1.3-1.73 3.5-2.47 5.6-1.53 3 1.34 3.74 4.88 1.9 7.66C18.7 16.65 12 21 12 21z"></path>
+                </svg>
+              </button>
+            </div>
+
+            <span class="text-[10px] uppercase tracking-widest text-framora-charcoal/50 font-medium">Standard A4 Format</span>
+          </div>
+
+          <!-- Card Content Body -->
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-4">
+            <div>
+              <h3 class="font-serif text-xl font-bold text-framora-charcoal leading-snug group-hover:text-framora-goldDark transition-colors">
+                ${product.name}
+              </h3>
+              <p class="font-serif italic text-xs text-framora-goldDark font-semibold mt-1">
+                "${product.subtitle}"
+              </p>
+              <div class="flex items-center gap-1 mt-2">
+                ${getRatingSummary(product).count > 0
+                  ? `${renderStarsHTML(getRatingSummary(product).avg, "w-3 h-3")}<span class="text-[10px] text-framora-charcoal/50 ml-1">(${getRatingSummary(product).count} review${getRatingSummary(product).count === 1 ? "" : "s"})</span>`
+                  : `<span class="text-[10px] text-framora-charcoal/40 italic">No reviews yet</span>`
+                }
+              </div>
+              <p class="text-xs text-framora-charcoal/70 mt-2 font-light line-clamp-2 leading-relaxed">
+                ${product.description}
+              </p>
+            </div>
+
+            <div class="pt-3 border-t border-framora-sand/60">
+              <div class="flex items-baseline justify-between mb-3">
+                <span class="text-[11px] uppercase tracking-wider text-framora-sage font-semibold">Ready to Frame</span>
+                <span class="font-serif text-xl font-bold text-framora-charcoal">${formatPKR(product.price)}</span>
+              </div>
+
+              <!-- Action buttons -->
+              <div class="grid grid-cols-2 gap-2">
+                <button 
+                  onclick="openProductModal('${product.id}')" 
+                  class="py-2.5 px-3 rounded-full text-xs font-semibold bg-framora-sand/70 hover:bg-framora-sand text-framora-charcoal transition-colors text-center"
+                >
+                  View Details
+                </button>
+                <button 
+                  onclick="quickAddToCart('${product.id}')" 
+                  class="py-2.5 px-3 rounded-full text-xs font-semibold bg-framora-charcoal hover:bg-black text-white transition-colors text-center shadow-sm"
+                >
+                  Add to Cart
+                </button>
+              </div>
+              <div class="mt-2 grid grid-cols-2 gap-2 text-[9px] text-framora-charcoal/45 text-center uppercase tracking-wide">
+                <span>View Details = photos + reviews</span>
+                <span>Add to Cart = save for checkout</span>
+              </div>
+            </div>
+
+          </div>
+        </article>
+      `).join('');
+    }
+
+    // Filter Navigation Handler
+    function setupFilters() {
+      const filterButtons = document.querySelectorAll("#collectionFilters .filter-tab");
+      filterButtons.forEach(btn => {
+        btn.addEventListener("click", () => {
+          filterButtons.forEach(b => {
+            b.classList.remove("bg-framora-charcoal", "text-white");
+            b.classList.add("bg-framora-sand/70", "text-framora-charcoal");
+          });
+          btn.classList.add("bg-framora-charcoal", "text-white");
+          btn.classList.remove("bg-framora-sand/70", "text-framora-charcoal");
+
+          const filterCategory = btn.getAttribute("data-filter");
+          currentProductFilter = filterCategory;
+          renderProducts(filterCategory);
+        });
+      });
+    }
+
+    // Add To Cart Functions
+    function quickAddToCart(productId) {
+      const product = PRODUCTS.find(p => p.id === productId);
+      if (!product) return;
+
+      const existingIndex = cart.findIndex(item => item.id === productId);
+      if (existingIndex > -1) {
+        cart[existingIndex].quantity += 1;
+      } else {
+        cart.push({
+          id: product.id,
+          name: product.name,
+          category: product.categoryLabel,
+          price: product.price,
+          quantity: 1
+        });
+      }
+
+      saveCart();
+      showToast(`Added "${product.name}" to cart`);
+    }
+
+    function updateCartUI() {
+      const badge = document.getElementById("cartBadgeCount");
+      const headerCount = document.getElementById("cartHeaderCount");
+      const itemsList = document.getElementById("cartItemList");
+      const emptyState = document.getElementById("cartEmptyState");
+      const cartFooter = document.getElementById("cartFooter");
+      const subtotalEl = document.getElementById("cartItemsSubtotal");
+      const totalEl = document.getElementById("cartTotalSum");
+      const checkoutTotalAmount = document.getElementById("checkoutTotalAmount");
+      const checkoutFramesSubtotal = document.getElementById("checkoutFramesSubtotal");
+      const checkoutDeliveryAmount = document.getElementById("checkoutDeliveryAmount");
+
+      const totalItemsCount = cart.reduce((sum, item) => sum + item.quantity, 0);
+      const listPriceTotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+      const bundleAmount = calculateBundleTotal(totalItemsCount);
+      const deliveryCharge = getDeliveryCharge(totalItemsCount);
+      const totalAmount = bundleAmount + deliveryCharge;
+      const bundleSavings = listPriceTotal - bundleAmount;
+
+      // Badge visibility
+      if (badge) {
+        badge.textContent = totalItemsCount;
+        if (totalItemsCount > 0) {
+          badge.classList.remove("scale-0");
+          badge.classList.add("scale-100");
+        } else {
+          badge.classList.remove("scale-100");
+          badge.classList.add("scale-0");
+        }
+      }
+
+      if (headerCount) headerCount.textContent = totalItemsCount;
+      if (subtotalEl) subtotalEl.textContent = formatPKR(listPriceTotal);
+      if (totalEl) totalEl.textContent = formatPKR(totalAmount);
+      if (checkoutFramesSubtotal) checkoutFramesSubtotal.textContent = formatPKR(bundleAmount);
+      if (checkoutDeliveryAmount) checkoutDeliveryAmount.textContent = formatPKR(deliveryCharge);
+      if (checkoutTotalAmount) checkoutTotalAmount.textContent = formatPKR(totalAmount);
+
+      // Show/hide bundle discount row in cart drawer
+      const bundleDiscountRow = document.getElementById("cartBundleDiscountRow");
+      const bundleDiscountAmount = document.getElementById("cartBundleDiscountAmount");
+      if (bundleDiscountRow && bundleDiscountAmount) {
+        if (bundleSavings > 0) {
+          bundleDiscountAmount.textContent = `- ${formatPKR(bundleSavings)}`;
+          bundleDiscountRow.classList.remove("hidden");
+        } else {
+          bundleDiscountRow.classList.add("hidden");
+        }
+      }
+
+      // Show/hide delivery charge row in cart drawer
+      const deliveryChargeRow = document.getElementById("cartDeliveryChargeRow");
+      const deliveryChargeAmount = document.getElementById("cartDeliveryChargeAmount");
+      if (deliveryChargeRow && deliveryChargeAmount) {
+        if (deliveryCharge > 0) {
+          deliveryChargeAmount.textContent = formatPKR(deliveryCharge);
+          deliveryChargeRow.classList.remove("hidden");
+        } else {
+          deliveryChargeRow.classList.add("hidden");
+        }
+      }
+
+      // Show/hide bundle note on checkout page
+      const checkoutBundleNote = document.getElementById("checkoutBundleNote");
+      if (checkoutBundleNote) {
+        checkoutBundleNote.classList.toggle("hidden", bundleSavings <= 0);
+      }
+
+      // Render items inside drawer
+      if (!itemsList) return;
+
+      if (cart.length === 0) {
+        itemsList.innerHTML = "";
+        emptyState?.classList.remove("hidden");
+        cartFooter?.classList.add("hidden");
+      } else {
+        emptyState?.classList.add("hidden");
+        cartFooter?.classList.remove("hidden");
+
+        itemsList.innerHTML = cart.map(item => `
+          <div class="flex items-center justify-between p-3.5 bg-white rounded-xl border border-framora-sand/70 shadow-xs">
+            <div class="space-y-1 max-w-[190px]">
+              <span class="text-[10px] font-bold text-framora-sage uppercase tracking-wider">${item.category}</span>
+              <h4 class="text-xs font-semibold text-framora-charcoal truncate">${item.name}</h4>
+              <p class="text-xs font-serif font-bold text-framora-goldDark">${formatPKR(item.price)} each</p>
+            </div>
+            
+            <div class="flex flex-col items-end gap-2">
+              <div class="flex items-center border border-framora-sand rounded-full bg-framora-ivory">
+                <button onclick="changeCartQty('${item.id}', -1)" class="px-2.5 py-0.5 text-xs text-framora-charcoal hover:bg-framora-sand font-bold rounded-l-full">-</button>
+                <span class="px-2 text-xs font-semibold">${item.quantity}</span>
+                <button onclick="changeCartQty('${item.id}', 1)" class="px-2.5 py-0.5 text-xs text-framora-charcoal hover:bg-framora-sand font-bold rounded-r-full">+</button>
+              </div>
+              <button onclick="removeFromCart('${item.id}')" class="text-[11px] text-red-600/70 hover:text-red-700 underline">
+                Remove
+              </button>
+            </div>
+          </div>
+        `).join('');
+      }
+    }
+
+    function changeCartQty(productId, delta) {
+      const item = cart.find(i => i.id === productId);
+      if (!item) return;
+
+      item.quantity += delta;
+      if (item.quantity <= 0) {
+        cart = cart.filter(i => i.id !== productId);
+      }
+      saveCart();
+    }
+
+    function removeFromCart(productId) {
+      cart = cart.filter(i => i.id !== productId);
+      saveCart();
+      showToast("Item removed from cart");
+    }
+
+    // Drawer Control
+    function toggleCart(open = true) {
+      const modal = document.getElementById("cartModal");
+      const backdrop = document.getElementById("cartBackdrop");
+      const panel = document.getElementById("cartPanel");
+      if (!modal || !panel || !backdrop) return;
+
+      if (open) {
+        modal.classList.remove("hidden");
+        setTimeout(() => {
+          backdrop.classList.remove("opacity-0");
+          backdrop.classList.add("opacity-100");
+          panel.classList.remove("translate-x-full");
+          panel.classList.add("translate-x-0");
+        }, 10);
+      } else {
+        backdrop.classList.remove("opacity-100");
+        backdrop.classList.add("opacity-0");
+        panel.classList.remove("translate-x-0");
+        panel.classList.add("translate-x-full");
+        setTimeout(() => {
+          modal.classList.add("hidden");
+        }, 300);
+      }
+    }
+
+    // Product Detail Modal Control
+    function openProductModal(productId) {
+      const product = PRODUCTS.find(p => p.id === productId);
+      if (!product) return;
+
+      currentModalProduct = product;
+      modalQuantity = 1;
+
+      document.getElementById("modalProductImg").src = product.image || BRAND_LOGO;
+      document.getElementById("modalProductCategory").textContent = product.categoryLabel;
+      document.getElementById("modalProductTitle").textContent = product.name;
+      document.getElementById("modalProductDesc").textContent = `${product.subtitle} — ${product.description}`;
+      document.getElementById("modalProductPrice").textContent = formatPKR(product.price);
+      document.getElementById("modalQtyVal").textContent = modalQuantity;
+      document.getElementById("modalBtnPrice").textContent = (product.price * modalQuantity);
+
+      resetReviewsQAUI();
+      renderReviewsList(product);
+      renderQuestionsList(product);
+
+      const modal = document.getElementById("productDetailModal");
+      modal?.classList.remove("hidden");
+    }
+
+    function closeProductModal() {
+      const modal = document.getElementById("productDetailModal");
+      modal?.classList.add("hidden");
+      currentModalProduct = null;
+    }
+
+    // Setup Event Handlers
+    document.addEventListener("DOMContentLoaded", () => {
+      // Set current year
+      document.getElementById("currentYear").textContent = new Date().getFullYear();
+
+      // Render collection tiles (main page view)
+      renderCollectionTiles();
+      renderProducts();
+      setupFilters();
+      loadCart();
+      loadWishlist();
+      firebaseAuthReady.finally(() => initCloudSync());
+
+      const scopeNote = document.getElementById("reviewsScopeNote");
+      if (scopeNote) {
+        scopeNote.textContent = FIREBASE_READY
+          ? "Visible to every visitor. You can delete reviews you submitted from this browser."
+          : "Cloud sync isn't connected yet — reviews are only saved on this device.";
+      }
+
+      // Back to collections button
+      document.getElementById("backToCollectionsBtn")?.addEventListener("click", showCollectionTiles);
+
+      // Cart open/close triggers
+      document.getElementById("cartOpenBtn")?.addEventListener("click", () => toggleCart(true));
+      document.getElementById("cartCloseBtn")?.addEventListener("click", () => toggleCart(false));
+      document.getElementById("cartBackdrop")?.addEventListener("click", () => toggleCart(false));
+      document.getElementById("cartExploreBtn")?.addEventListener("click", () => {
+        toggleCart(false);
+        window.location.hash = "collections";
+      });
+
+      // Product modal qty adjustments
+      document.getElementById("modalQtyPlus")?.addEventListener("click", () => {
+        if (!currentModalProduct) return;
+        modalQuantity++;
+        document.getElementById("modalQtyVal").textContent = modalQuantity;
+        document.getElementById("modalBtnPrice").textContent = (currentModalProduct.price * modalQuantity);
+      });
+
+      document.getElementById("modalQtyMinus")?.addEventListener("click", () => {
+        if (!currentModalProduct || modalQuantity <= 1) return;
+        modalQuantity--;
+        document.getElementById("modalQtyVal").textContent = modalQuantity;
+        document.getElementById("modalBtnPrice").textContent = (currentModalProduct.price * modalQuantity);
+      });
+
+      // Product modal add to cart
+      document.getElementById("modalAddToCartBtn")?.addEventListener("click", () => {
+        if (!currentModalProduct) return;
+        const existingIndex = cart.findIndex(item => item.id === currentModalProduct.id);
+        if (existingIndex > -1) {
+          cart[existingIndex].quantity += modalQuantity;
+        } else {
+          cart.push({
+            id: currentModalProduct.id,
+            name: currentModalProduct.name,
+            category: currentModalProduct.categoryLabel,
+            price: currentModalProduct.price,
+            quantity: modalQuantity
+          });
+        }
+        saveCart();
+        closeProductModal();
+        toggleCart(true);
+      });
+
+      // Product modal direct WhatsApp single order
+      document.getElementById("modalWhatsAppDirectBtn")?.addEventListener("click", () => {
+        if (!currentModalProduct) return;
+        const modalItemTotal = currentModalProduct.price * modalQuantity;
+        const modalDelivery = getDeliveryCharge(modalQuantity);
+        const modalGrandTotal = modalItemTotal + modalDelivery;
+        const text = encodeURIComponent(
+          `Hello Framora! I'd like to order:\n• ${currentModalProduct.name} (Qty: ${modalQuantity}) - ${formatPKR(modalItemTotal)}\n• Delivery Charges: ${formatPKR(modalDelivery)}\n• Total: ${formatPKR(modalGrandTotal)}\n\nPlease advise on sending photographs.`
+        );
+        window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${text}`, '_blank');
+      });
+
+      // Modal Close triggers
+      document.getElementById("closeProductModalBtn")?.addEventListener("click", closeProductModal);
+      document.getElementById("productModalBackdrop")?.addEventListener("click", closeProductModal);
+
+      // Reviews & Questions tabs
+      document.getElementById("reviewsTabBtn")?.addEventListener("click", showReviewsTab);
+      document.getElementById("questionsTabBtn")?.addEventListener("click", showQuestionsTab);
+
+      // Write a Review
+      document.getElementById("toggleReviewFormBtn")?.addEventListener("click", () => {
+        reviewFormRating = 5;
+        renderStarPicker();
+        document.getElementById("reviewForm")?.classList.remove("hidden");
+        document.getElementById("toggleReviewFormBtn")?.classList.add("hidden");
+      });
+      document.getElementById("cancelReviewFormBtn")?.addEventListener("click", () => {
+        document.getElementById("reviewForm")?.reset();
+        document.getElementById("reviewForm")?.classList.add("hidden");
+        document.getElementById("toggleReviewFormBtn")?.classList.remove("hidden");
+      });
+      document.getElementById("reviewForm")?.addEventListener("submit", (e) => {
+        e.preventDefault();
+        if (!currentModalProduct) return;
+        const name = document.getElementById("reviewNameInput")?.value.trim();
+        const text = document.getElementById("reviewTextInput")?.value.trim();
+        const rating = parseInt(document.getElementById("reviewRatingInput")?.value, 10) || 5;
+        if (!name || !text) return;
+        const form = document.getElementById("reviewForm");
+        const submitBtn = form?.querySelector("button[type=submit]");
+        if (submitBtn) { submitBtn.disabled = true; submitBtn.textContent = "Submitting..."; }
+        addReview(currentModalProduct.id, { name, rating, text }, (ok) => {
+          if (submitBtn) { submitBtn.disabled = false; submitBtn.textContent = "Submit Review"; }
+          if (!ok) return; // keep form open so they can retry
+          renderReviewsList(currentModalProduct);
+          form?.reset();
+          form?.classList.add("hidden");
+          document.getElementById("toggleReviewFormBtn")?.classList.remove("hidden");
+        });
+      });
+
+      // Ask a Question
+      document.getElementById("toggleQuestionFormBtn")?.addEventListener("click", () => {
+        document.getElementById("questionForm")?.classList.remove("hidden");
+        document.getElementById("toggleQuestionFormBtn")?.classList.add("hidden");
+      });
+      document.getElementById("cancelQuestionFormBtn")?.addEventListener("click", () => {
+        document.getElementById("questionForm")?.reset();
+        document.getElementById("questionForm")?.classList.add("hidden");
+        document.getElementById("toggleQuestionFormBtn")?.classList.remove("hidden");
+      });
+      document.getElementById("questionForm")?.addEventListener("submit", (e) => {
+        e.preventDefault();
+        if (!currentModalProduct) return;
+        const name = document.getElementById("questionNameInput")?.value.trim();
+        const text = document.getElementById("questionTextInput")?.value.trim();
+        if (!name || !text) return;
+        const form = document.getElementById("questionForm");
+        const submitBtn = form?.querySelector("button[type=submit]");
+        if (submitBtn) { submitBtn.disabled = true; submitBtn.textContent = "Submitting..."; }
+        addQuestion(currentModalProduct.id, { name, text }, (ok) => {
+          if (submitBtn) { submitBtn.disabled = false; submitBtn.textContent = "Submit Question"; }
+          if (!ok) return; // keep form open so they can retry
+          renderQuestionsList(currentModalProduct);
+          form?.reset();
+          form?.classList.add("hidden");
+          document.getElementById("toggleQuestionFormBtn")?.classList.remove("hidden");
+        });
+      });
+
+      // Checkout flow triggers
+      document.getElementById("proceedToCheckoutBtn")?.addEventListener("click", () => {
+        toggleCart(false);
+        document.getElementById("checkoutModal")?.classList.remove("hidden");
+      });
+
+      document.getElementById("closeCheckoutBtn")?.addEventListener("click", () => {
+        document.getElementById("checkoutModal")?.classList.add("hidden");
+      });
+      document.getElementById("checkoutBackdrop")?.addEventListener("click", () => {
+        document.getElementById("checkoutModal")?.classList.add("hidden");
+      });
+
+      // Success modal triggers
+      document.getElementById("successCloseBtn")?.addEventListener("click", () => {
+        document.getElementById("orderSuccessModal")?.classList.add("hidden");
+      });
+
+      // Mobile drawer toggle
+      const mobileToggle = document.getElementById("mobileMenuToggle");
+      const mobileMenu = document.getElementById("mobileMenuDrawer");
+      mobileToggle?.addEventListener("click", () => {
+        mobileMenu?.classList.toggle("hidden");
+      });
+      document.querySelectorAll(".mobile-link").forEach(link => {
+        link.addEventListener("click", () => mobileMenu?.classList.add("hidden"));
+      });
+
+      // Handle Checkout Form Submission
+      const checkoutForm = document.getElementById("checkoutForm");
+      checkoutForm?.addEventListener("submit", handleCheckoutSubmission);
+
+      // Handle Newsletter Subscription Form
+      const newsletterForm = document.getElementById("newsletterForm");
+      newsletterForm?.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const emailInput = document.getElementById("newsletterEmail");
+        const email = emailInput?.value.trim();
+        if (!email) return;
+        await subscribeNewsletter(email);
+        showToast("You're subscribed! We'll use this email for Framora updates.");
+        newsletterForm.reset();
+      });
+
+      // Open/Close the shop-wide "All Reviews" panel
+      document.getElementById("openAllReviewsBtn")?.addEventListener("click", openAllReviewsModal);
+      document.getElementById("openAllReviewsBtnMobile")?.addEventListener("click", () => {
+        document.getElementById("mobileMenuDrawer")?.classList.add("hidden");
+        openAllReviewsModal();
+      });
+      document.getElementById("closeAllReviewsBtn")?.addEventListener("click", () => {
+        document.getElementById("allReviewsModal")?.classList.add("hidden");
+      });
+      document.getElementById("allReviewsBackdrop")?.addEventListener("click", () => {
+        document.getElementById("allReviewsModal")?.classList.add("hidden");
+      });
+    });
+
+    // Checkout submission and WhatsApp payload generator
+    async function handleCheckoutSubmission(e) {
+      e.preventDefault();
+
+      if (cart.length === 0) {
+        alert("Your cart is empty. Please select a frame first.");
+        return;
+      }
+
+      // Collect form fields
+      const fullName = document.getElementById("custName").value.trim();
+      const phone = document.getElementById("custPhone").value.trim();
+      const email = document.getElementById("custEmail").value.trim();
+      const city = document.getElementById("custCity").value.trim();
+      const address = document.getElementById("custAddress").value.trim();
+      const instructions = document.getElementById("custInstructions").value.trim() || "Standard arrangement as per photos.";
+      const customFrame = document.getElementById("custCustomFrame").value.trim() || "Standard A4 Frame.";
+      const paymentMethodLabel = "JazzCash / EasyPaisa (Manual)";
+
+      // Generate Order Reference
+      const orderNumber = `FR-${Math.floor(1000 + Math.random() * 9000)}`;
+
+      const orderData = {
+        orderNumber, fullName, phone, email, city, address,
+        instructions, customFrame, paymentMethodLabel,
+        cart: JSON.parse(JSON.stringify(cart))
+      };
+
+      await finalizeOrder(orderData);
+    }
+
+    // Shared totals calculator: bundle price + flat delivery charge
+    function computeOrderTotals(cartSnapshot) {
+      const totalItemsCount = cartSnapshot.reduce((sum, item) => sum + item.quantity, 0);
+      const bundleAmount = calculateBundleTotal(totalItemsCount);
+      const deliveryCharge = getDeliveryCharge(totalItemsCount);
+      return { bundleAmount, deliveryCharge, totalAmount: bundleAmount + deliveryCharge };
+    }
+
+    // Builds the WhatsApp order message from a saved order (used for both manual and online-paid orders)
+    function buildOrderWhatsAppMessage(orderData) {
+      const { bundleAmount, deliveryCharge, totalAmount } = computeOrderTotals(orderData.cart);
+      const itemsBreakdown = orderData.cart.map(item => `• ${item.name} x${item.quantity} (${formatPKR(item.price)} each)`).join('\n');
+      const message =
+`✦ NEW FRAMORA MEMORY FRAME ORDER ✦
+Order ID: ${orderData.orderNumber}
+Frames Subtotal: ${formatPKR(bundleAmount)}
+Delivery Charges: ${formatPKR(deliveryCharge)}
+Total Amount: ${formatPKR(totalAmount)}
+
+ITEMS:
+${itemsBreakdown}
+
+CUSTOMER DETAILS:
+• Name: ${orderData.fullName}
+• WhatsApp: ${orderData.phone}
+• Email: ${orderData.email}
+• City: ${orderData.city}
+• Delivery Address: ${orderData.address}
+• Payment Method: ${orderData.paymentMethodLabel}
+
+PHOTO & DESIGN INSTRUCTIONS:
+${orderData.instructions}
+
+SPECIAL FRAME REQUESTS:
+${orderData.customFrame}
+
+I am ready to send my high-resolution photos in this chat!`;
+      return { message, itemsBreakdown, bundleAmount, deliveryCharge, totalAmount };
+    }
+
+    // Confirms an order: sends the customer-facing email, clears the cart, and shows the success screen + WhatsApp link
+    async function finalizeOrder(orderData) {
+      const { message: whatsappMessage, itemsBreakdown, totalAmount } = buildOrderWhatsAppMessage(orderData);
+      const whatsappURL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(whatsappMessage)}`;
+
+      // Send automatic order-confirmation email to the CUSTOMER (once EmailJS keys are configured above)
+      try {
+        const emailJsReady = typeof emailjs !== "undefined" && EMAILJS_SERVICE_ID.indexOf("REPLACE_") === -1;
+        if (emailJsReady && orderData.email) {
+          await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
+            to_email: orderData.email,
+            order_id: orderData.orderNumber,
+            customer_name: orderData.fullName,
+            customer_email: orderData.email,
+            customer_phone: orderData.phone,
+            customer_city: orderData.city,
+            customer_address: orderData.address,
+            payment_method: orderData.paymentMethodLabel,
+            items_summary: itemsBreakdown,
+            total_amount: formatPKR(totalAmount),
+            instructions: orderData.instructions
+          });
+        } else {
+          console.info("EmailJS not configured yet — skipping customer email. WhatsApp order message still sends normally.");
+        }
+      } catch (err) {
+        console.warn("Email failed to send, but the order still goes through via WhatsApp.", err);
+      }
+
+      // Clear Cart & reset storage
+      cart = [];
+      saveCart();
+
+      // Show Order Success Screen
+      document.getElementById("checkoutModal")?.classList.add("hidden");
+      document.getElementById("successOrderRef").textContent = orderData.orderNumber;
+
+      const successLink = document.getElementById("successWhatsAppLink");
+      if (successLink) {
+        successLink.href = whatsappURL;
+      }
+
+      const igLink = document.getElementById("successInstagramLink");
+      if (igLink) {
+        igLink.href = INSTAGRAM_DM_URL;
+      }
+
+      const emailLink = document.getElementById("successEmailLink");
+      if (emailLink) {
+        const emailSubject = `Framora Order ${orderData.orderNumber} — My Photos`;
+        const emailBody = `Hi Framora,\n\nHere are my photos for order ${orderData.orderNumber}.\n\nName: ${orderData.fullName}\nItems: ${itemsBreakdown.replace(/\n/g, ' | ')}\n\n(Please attach your photos before sending this email.)`;
+        emailLink.href = `mailto:${SHOP_EMAIL}?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+      }
+
+      document.getElementById("orderSuccessModal")?.classList.remove("hidden");
+
+      // Auto-open WhatsApp in a new tab for seamless user convenience
+      setTimeout(() => {
+        window.open(whatsappURL, '_blank');
+      }, 500);
+    }
+  </script>
+<!-- END: ApplicationDataAndCoreLogic -->
+</body></html>
